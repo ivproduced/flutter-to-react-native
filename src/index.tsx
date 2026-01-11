@@ -1,348 +1,398 @@
+// New index file for Flutter to React Native conversion
 
+// Import removed - these are defined locally or not needed yet
+// import { styleMapping, reactNativeComponent } from "./config/react-native-components";
 
-import { styleSystem } from "./config";
-import { flutterWidget } from "./config/flutter-widgets";
-import { pushPropToWidget } from "./utils/pushPropToWidget";
+// Parser for Dart/Flutter code - we'll need to implement this
+// For now, let's create a basic structure
 
-import * as parser from '@babel/parser';
-//@ts-ignore
-import xyz from '@babel/preset-react'
-import { buildDartASTfromAST, searchForDeepChildAndPush } from "./buildDartASTfromAST";
-import { addProperty } from "./addProperty";
-import { clearProperties } from "./clearProperties";
-
-
-
-let mapReactComponentToFlutterWidgets: any = {
-  "View": flutterWidget.Container,
-  "Text": flutterWidget.Text
+/**
+ * Maps Flutter widgets to React Native components
+ */
+const mapFlutterWidgetToReactNative: any = {
+  "Container": "View",
+  "Text": "Text",
+  "Row": "View",
+  "Column": "View",
+  "Stack": "View",
+  "Positioned": "View",
+  "Expanded": "View",
+  "SizedBox": "View",
+  "Padding": "View",
 };
 
+/**
+ * Converts Flutter widget properties to React Native styles
+ */
+function convertFlutterPropsToReactNativeStyle(widgetType: string, props: any): any {
+  const styles: any = {};
 
-let count = 0;
-
-
-export function buildDartAST(component: any, theme: any) {
-
-  let dartAST: any = {}
-
-  try {
-    let widget: any = { ...mapReactComponentToFlutterWidgets[component] };
+  // Handle Container properties
+  if (widgetType === "Container") {
+    if (props.width) styles.width = parseFlutterValue(props.width);
+    if (props.height) styles.height = parseFlutterValue(props.height);
+    if (props.color) styles.backgroundColor = convertFlutterColor(props.color);
     
-    // delete widget.properties;
-    widget.properties = []
-    let a = ''
-    a = widget;
+    // Handle BoxDecoration
+    if (props.decoration) {
+      const decoration = props.decoration;
+      if (decoration.color) styles.backgroundColor = convertFlutterColor(decoration.color);
+      if (decoration.borderRadius) {
+        const radius = parseFlutterValue(decoration.borderRadius);
+        styles.borderRadius = radius;
+      }
+      if (decoration.border) {
+        styles.borderWidth = parseFlutterValue(decoration.border.width);
+        if (decoration.border.color) {
+          styles.borderColor = convertFlutterColor(decoration.border.color);
+        }
+      }
+    }
 
-    clearProperties(theme);
+    // Handle padding
+    if (props.padding) {
+      const padding = parseEdgeInsets(props.padding);
+      Object.assign(styles, padding);
+    }
 
-    dartAST = loopStyle(theme, a);
-
-
-  } catch (error) {
-    console.error(error)
-    return error
-  } finally {
-    return dartAST;
-    // createFlutterWidget(dartAST,count)
-
+    // Handle margin
+    if (props.margin) {
+      const margin = parseEdgeInsets(props.margin);
+      Object.assign(styles, margin);
+    }
   }
 
+  // Handle Row properties
+  if (widgetType === "Row") {
+    styles.flexDirection = "row";
+    if (props.mainAxisAlignment) {
+      styles.justifyContent = convertMainAxisAlignment(props.mainAxisAlignment);
+    }
+    if (props.crossAxisAlignment) {
+      styles.alignItems = convertCrossAxisAlignment(props.crossAxisAlignment);
+    }
+  }
 
+  // Handle Column properties
+  if (widgetType === "Column") {
+    styles.flexDirection = "column";
+    if (props.mainAxisAlignment) {
+      styles.justifyContent = convertMainAxisAlignment(props.mainAxisAlignment);
+    }
+    if (props.crossAxisAlignment) {
+      styles.alignItems = convertCrossAxisAlignment(props.crossAxisAlignment);
+    }
+  }
 
+  // Handle Stack properties
+  if (widgetType === "Stack") {
+    styles.position = "relative";
+  }
+
+  // Handle Positioned properties
+  if (widgetType === "Positioned") {
+    styles.position = "absolute";
+    if (props.top !== undefined) styles.top = parseFlutterValue(props.top);
+    if (props.bottom !== undefined) styles.bottom = parseFlutterValue(props.bottom);
+    if (props.left !== undefined) styles.left = parseFlutterValue(props.left);
+    if (props.right !== undefined) styles.right = parseFlutterValue(props.right);
+  }
+
+  // Handle Expanded properties
+  if (widgetType === "Expanded") {
+    styles.flex = props.flex || 1;
+  }
+
+  // Handle Text properties
+  if (widgetType === "Text" && props.style) {
+    const textStyle = props.style;
+    if (textStyle.color) styles.color = convertFlutterColor(textStyle.color);
+    if (textStyle.fontSize) styles.fontSize = parseFlutterValue(textStyle.fontSize);
+    if (textStyle.fontWeight) styles.fontWeight = convertFontWeight(textStyle.fontWeight);
+    if (textStyle.fontStyle) styles.fontStyle = convertFontStyle(textStyle.fontStyle);
+    if (textStyle.fontFamily) styles.fontFamily = textStyle.fontFamily;
+  }
+
+  return styles;
 }
 
-
-function loopStyle(theme: any, ast: any) {
+/**
+ * Converts Flutter Color to React Native color
+ * Example: Color(0xFF000000) -> "#000000"
+ */
+function convertFlutterColor(colorValue: string): string {
+  if (typeof colorValue === 'string') {
+    // Handle Color(0xFFRRGGBB) format
+    const match = colorValue.match(/Color\(0x([A-Fa-f0-9]{8})\)/);
+    if (match) {
+      const hex = match[1];
+      // Extract RGB (skip first 2 chars which are alpha)
+      const rgb = hex.substring(2);
+      return `#${rgb}`;
+    }
+    
+    // Handle Colors.colorName format
+    if (colorValue.startsWith('Colors.')) {
+      const colorName = colorValue.replace('Colors.', '');
+      return convertNamedColor(colorName);
+    }
+  }
   
-
-  Object.entries(theme).map(([k, v]: any) => {
-
-
-
-    if (styleSystem.hasOwnProperty(k)) {
-
-      if (styleSystem[k].hasOwnProperty("partOf")) {
-        if (ast["properties"]) {
-
-          let newVal = { [styleSystem[k].partOf.property]: styleSystem[k].partOf.class };
-          let myObject = addProperty(newVal[styleSystem[k].partOf.property], v, k, theme, ast);
-          let widget = styleSystem[k].widget;
-          if (myObject.nested) {
-            ast = myObject.object;
-          } else {
-            pushPropToWidget(ast, myObject, widget);
-          }
-        }
-      } else {
-        
-        let newVal = { ...styleSystem[k].class };
-        let myObject = addProperty(newVal, v, k, theme, ast);
-        let widget = styleSystem[k].widget;
-
-        if (myObject.nested) {
-          ast = myObject.object;
-        } else {
-          pushPropToWidget(ast, myObject, widget);
-        }
-
-
-      }
-    }
-
-  });
-
-  return ast;
+  return colorValue;
 }
 
-let code: string = ""
-let tab: string = '\t';
-// @ts-ignore
+/**
+ * Converts Flutter named colors to hex
+ */
+function convertNamedColor(colorName: string): string {
+  const colorMap: any = {
+    'red': '#F44336',
+    'blue': '#2196F3',
+    'green': '#4CAF50',
+    'white': '#FFFFFF',
+    'black': '#000000',
+    'transparent': 'transparent',
+    // Add more colors as needed
+  };
+  
+  return colorMap[colorName] || colorName;
+}
 
-export function createFlutterWidget(ast: any, c: number) {
-
-  if (ast?.hasOwnProperty("namedProp")) {
-    if (ast.type === "constructor") {
-      // if (ast.hasOwnProperty("value")) {
-
-      //   code += `${tab.repeat(c)}${ast.namedProp}:${ast.class}('${ast.value}',\n`
-      // } else {
-        code += `${tab.repeat(c)}${ast.namedProp}:${ast.class}(\n`
-      //}
-
-    } else if (ast.type === "Array") {
-      code += `${tab.repeat(c)}${ast.namedProp}:[\n`
+/**
+ * Parses Flutter numeric values (removes .0, converts to number)
+ */
+function parseFlutterValue(value: any): number | string {
+  if (typeof value === 'string') {
+    const numMatch = value.match(/(\d+\.?\d*)/);
+    if (numMatch) {
+      return parseFloat(numMatch[1]);
     }
-
-  } else {
-
-    if (ast?.hasOwnProperty("value")) {
-
-      code += `${tab.repeat(c)}${ast.class}('${ast.value}',\n`
-    } else {
-
-      code += `${tab.repeat(c)}${ast?.class}(\n`
-    }
-
   }
-  c++
-  if (ast?.hasOwnProperty("properties")) {
-    Object.entries(ast?.properties).forEach(([, v]: any) => {
+  return value;
+}
+
+/**
+ * Converts Flutter EdgeInsets to React Native padding/margin
+ */
+function parseEdgeInsets(edgeInsets: any): any {
+  const result: any = {};
+  
+  if (typeof edgeInsets === 'string') {
+    // EdgeInsets.all(value)
+    if (edgeInsets.includes('EdgeInsets.all')) {
+      const match = edgeInsets.match(/EdgeInsets\.all\((\d+\.?\d*)\)/);
+      if (match) {
+        const value = parseFloat(match[1]);
+        return { padding: value };
+      }
+    }
+    
+    // EdgeInsets.only(...)
+    if (edgeInsets.includes('EdgeInsets.only')) {
+      // Parse individual values
+      const topMatch = edgeInsets.match(/top:\s*(\d+\.?\d*)/);
+      const bottomMatch = edgeInsets.match(/bottom:\s*(\d+\.?\d*)/);
+      const leftMatch = edgeInsets.match(/left:\s*(\d+\.?\d*)/);
+      const rightMatch = edgeInsets.match(/right:\s*(\d+\.?\d*)/);
       
-      if (v.hasOwnProperty("properties") || v.hasOwnProperty("widgets")) {
-        createFlutterWidget(v, c);
-        code += `${tab.repeat(c)}),\n`
-
-
-      } else {
-
-
-        let innerValue = v;
-        let innerKey
-
-
-
-
-        if (innerValue.class) {
-          if (innerValue.type === "constructor" || innerValue.type === "enum" || innerValue.type === "string") {
-            if (innerValue.hasOwnProperty("properties")) {
-              createFlutterWidget(innerValue, c);
-
-            }
-
-
-            if (innerValue.value.transformer) {
-              innerValue.value.value = innerValue.value.transformer(innerValue.value.value)
-            } else {
-              if (innerValue.transformer) {
-                innerValue.value = innerValue.transformer(innerValue.value)
-              }
-            }
-
-            if (innerValue.type === "constructor") {
-              // Build class when its constrictor
-              /// for eg Color(0xffffffff)
-
-              code += `${tab.repeat(c)}${innerValue.namedProp}:${innerValue.class}(${innerValue.value.value ?? innerValue.value}),\n`
-            } else if (innerValue.type === "enum") {
-              // Build class when its constrictor
-              /// for eg MainAxisAlignment.center
-              code += `${tab.repeat(c)}${innerValue.namedProp}:${innerValue.class}.${innerValue.value.value ?? innerValue.value},\n`
-            } else if (innerValue.type === "string") {
-
-              code += `${tab.repeat(c)}${innerValue.namedProp}: "${innerValue.value.value ?? innerValue.value}", \n`
-            }
-
-          }
-
-
-        } else {
-
-
-
-
-          if (innerValue.type === "nameConstructor") {
-
-            let args: string = ''
-
-            if (innerValue.args) {
-              Object.entries(innerValue.args[0]).forEach(([k, v]: any, index: number) => {
-
-                if (index == 0) {
-                  args += `\n`;
-                }
-                if (v.transformer) {
-                  v.value = v.transformer(v.value);
-                }
-                args += `${tab.repeat(c + 1)}${k}:${v.value},\n`
-              })
-              code += `${tab.repeat(c)}${innerKey}:${innerValue.callee}.${innerValue.name}(${args}${tab.repeat(c)}),\n`
-            } else {
-              code += `${tab.repeat(c)}${innerKey}:${innerValue.callee}.${innerValue.name}(\n${innerValue.value}),\n`
-            }
-          } else if (innerValue.type == "Array") {
-
-            code += `${tab.repeat(c)}${innerValue.namedProp}:[\n`
-            c++;
-            Object.entries(innerValue.values).forEach(([, v]: any) => {
-
-              createFlutterWidget(v, c);
-              code += `${tab.repeat(c)}),\n`
-            });
-            c--;
-            code += `${tab.repeat(c)}],\n`
-          } else {
-
-            if (innerValue.transformer) {
-
-              innerValue.value = innerValue.transformer(innerValue.value ?? innerValue)
-            }
-            code += `${tab.repeat(c)}${innerValue.namedProp}:${innerValue.value ?? innerValue},\n`
-          }
-        }
+      if (topMatch) result.paddingTop = parseFloat(topMatch[1]);
+      if (bottomMatch) result.paddingBottom = parseFloat(bottomMatch[1]);
+      if (leftMatch) result.paddingLeft = parseFloat(leftMatch[1]);
+      if (rightMatch) result.paddingRight = parseFloat(rightMatch[1]);
+    }
+    
+    // EdgeInsets.symmetric(...)
+    if (edgeInsets.includes('EdgeInsets.symmetric')) {
+      const verticalMatch = edgeInsets.match(/vertical:\s*(\d+\.?\d*)/);
+      const horizontalMatch = edgeInsets.match(/horizontal:\s*(\d+\.?\d*)/);
+      
+      if (verticalMatch) {
+        const value = parseFloat(verticalMatch[1]);
+        result.paddingTop = value;
+        result.paddingBottom = value;
       }
-
-    });
+      if (horizontalMatch) {
+        const value = parseFloat(horizontalMatch[1]);
+        result.paddingLeft = value;
+        result.paddingRight = value;
+      }
+    }
   }
-
-
-
+  
+  return result;
 }
 
+/**
+ * Converts Flutter MainAxisAlignment to React Native justifyContent
+ */
+function convertMainAxisAlignment(alignment: string): string {
+  const alignmentMap: any = {
+    'MainAxisAlignment.start': 'flex-start',
+    'MainAxisAlignment.end': 'flex-end',
+    'MainAxisAlignment.center': 'center',
+    'MainAxisAlignment.spaceBetween': 'space-between',
+    'MainAxisAlignment.spaceAround': 'space-around',
+    'MainAxisAlignment.spaceEvenly': 'space-evenly',
+  };
+  
+  return alignmentMap[alignment] || 'flex-start';
+}
 
+/**
+ * Converts Flutter CrossAxisAlignment to React Native alignItems
+ */
+function convertCrossAxisAlignment(alignment: string): string {
+  const alignmentMap: any = {
+    'CrossAxisAlignment.start': 'flex-start',
+    'CrossAxisAlignment.end': 'flex-end',
+    'CrossAxisAlignment.center': 'center',
+    'CrossAxisAlignment.stretch': 'stretch',
+    'CrossAxisAlignment.baseline': 'baseline',
+  };
+  
+  return alignmentMap[alignment] || 'stretch';
+}
 
+/**
+ * Converts Flutter FontWeight to React Native fontWeight
+ */
+function convertFontWeight(fontWeight: string): string {
+  const weightMap: any = {
+    'FontWeight.w100': '100',
+    'FontWeight.w200': '200',
+    'FontWeight.w300': '300',
+    'FontWeight.w400': '400',
+    'FontWeight.w500': '500',
+    'FontWeight.w600': '600',
+    'FontWeight.w700': '700',
+    'FontWeight.w800': '800',
+    'FontWeight.w900': '900',
+    'FontWeight.normal': 'normal',
+    'FontWeight.bold': 'bold',
+  };
+  
+  return weightMap[fontWeight] || 'normal';
+}
 
+/**
+ * Converts Flutter FontStyle to React Native fontStyle
+ */
+function convertFontStyle(fontStyle: string): string {
+  if (fontStyle === 'FontStyle.italic') return 'italic';
+  return 'normal';
+}
 
+/**
+ * Builds React Native JSX from Flutter widget tree
+ */
+export function buildReactNativeAST(widget: any): any {
+  const reactNativeAST: any = {
+    component: mapFlutterWidgetToReactNative[widget.type] || "View",
+    props: {
+      style: convertFlutterPropsToReactNativeStyle(widget.type, widget.props || {})
+    },
+    children: []
+  };
 
-
-
-
-
-
-
-export const convertNativeBaseThemeToFlutterWidgets = (styles: any): string => {
-
-
-
-
-
-
-  try {
-
-    let ast: any;
-    code = '';
-
-    try {
-      ast = parser.parse(styles, {
-        plugins: [
-          // enable jsx and flow syntax
-          "jsx",
-          "flow",
-        ],
-      });
-      console.log(ast);
-
-      let style: any = {};
-      let myDartAST: any;
-      let expression = ast.program.body[0].expression;
-      let name = expression.openingElement.name.name;
-
-      if (expression.type === "JSXElement") {
-
-        let attributes = expression.openingElement.attributes[0];
-        if (attributes) {
-          if (attributes?.name?.name === "style") {
-
-            let properties = attributes.value.expression.properties;
-            Object.entries(properties).forEach(([, v]: any) => {
-              style[v.key.name] = v.value.value
-            });
-            myDartAST = buildDartAST(name, style)
-            let layout: any = {
-              type: "constructor",
-              properties: []
-            }
-
-            console.log(myDartAST);
-            
-            if (name === "View") {
-              
-              let index = myDartAST.properties.findIndex((data: any) => (data.class === "Row" || data.class === "Column"));
-              if (index > -1) {
-               
-               // layout = {...layout,"class": myDartAST.properties[index].class}
-                // myDartAST.properties.splice(index, 1);
-              } else {
-                layout = {...layout,"class": "Row"}
-              }
-             
-             // myDartAST.properties.push({ ...layout, "namedProp": "child" })
-             
-              searchForDeepChildAndPush(myDartAST,{...layout,"namedProp": "child" });
-            }
-
-
-          }
-        } else {
-          myDartAST = buildDartAST(name, style)
-          let layout: any = {
-            type: "constructor",
-            properties: []
-          }
-
-          if (name === "View") {
-            let index = myDartAST.properties.findIndex((data: any) => (data.class === "Row" || data.class === "Column"));
-            if (index > -1) {
-             // layout = {...layout,"class": myDartAST.properties[index].class}
-             // myDartAST.properties.splice(index, 1);
-            } else {
-              layout = {...layout,"class": "Row"}
-            }
-
-           //searchForDeepChildAndPush(myDartAST,{});
-           
-            searchForDeepChildAndPush(myDartAST,{...layout,"namedProp": "child" });
-            
-           // myDartAST.properties.push({ ...layout, "namedProp": "child" })
-
-          }
-        }
-
-      }
-
-      buildDartASTfromAST(expression, myDartAST);
-
-      createFlutterWidget(myDartAST, count);
-    } catch (error) {
-
-      console.log(error);
-      code = error as string;
-    }
-    code += ');\n'
-
-  } catch (error) {
-    code = error as string
+  // Handle child or children
+  if (widget.child) {
+    reactNativeAST.children.push(buildReactNativeAST(widget.child));
+  } else if (widget.children && Array.isArray(widget.children)) {
+    reactNativeAST.children = widget.children.map((child: any) => buildReactNativeAST(child));
   }
+
+  // Handle text content for Text widget
+  if (widget.type === "Text" && widget.data) {
+    reactNativeAST.textContent = widget.data;
+  }
+
+  return reactNativeAST;
+}
+
+/**
+ * Generates React Native JSX code from AST
+ */
+export function generateReactNativeCode(ast: any, indent: number = 0): string {
+  const indentStr = "  ".repeat(indent);
+  const component = ast.component;
+  
+  let code = `${indentStr}<${component}`;
+  
+  // Add style prop
+  if (ast.props && ast.props.style && Object.keys(ast.props.style).length > 0) {
+    code += ` style={{${Object.entries(ast.props.style)
+      .map(([key, value]) => {
+        if (typeof value === 'string') {
+          return `${key}: '${value}'`;
+        }
+        return `${key}: ${value}`;
+      })
+      .join(', ')}}}`;
+  }
+  
+  // Handle children
+  if (ast.children && ast.children.length > 0) {
+    code += ">\n";
+    ast.children.forEach((child: any) => {
+      code += generateReactNativeCode(child, indent + 1);
+    });
+    code += `${indentStr}</${component}>\n`;
+  } else if (ast.textContent) {
+    code += `>${ast.textContent}</${component}>\n`;
+  } else {
+    code += " />\n";
+  }
+  
   return code;
 }
 
+/**
+ * Main conversion function: Flutter Widget to React Native Component
+ * Parses Flutter/Dart code and converts it to React Native JSX
+ */
+export const convertFlutterToReactNative = (flutterCode: string): string => {
+  try {
+    // TODO: Parse flutterCode using Dart parser
+    // For now, use example widget tree structure
+    console.log('Input Flutter code:', flutterCode.substring(0, 50) + '...');
+    
+    const exampleWidgetTree = {
+      type: "Container",
+      props: {
+        width: "200.0",
+        height: "100.0",
+        decoration: {
+          color: "Color(0xFF2196F3)",
+          borderRadius: "BorderRadius.circular(8.0)"
+        },
+        padding: "EdgeInsets.all(16.0)"
+      },
+      child: {
+        type: "Text",
+        data: "Hello World",
+        props: {
+          style: {
+            color: "Colors.white",
+            fontSize: "16.0",
+            fontWeight: "FontWeight.bold"
+          }
+        }
+      }
+    };
+    
+    // Build React Native AST
+    const reactNativeAST = buildReactNativeAST(exampleWidgetTree);
+    
+    // Generate React Native code
+    const code = generateReactNativeCode(reactNativeAST);
+    
+    return code;
+    
+  } catch (error) {
+    console.error("Conversion error:", error);
+    return `// Error during conversion: ${error}`;
+  }
+};
+
+// Export the main conversion function
+export { convertFlutterPropsToReactNativeStyle, convertFlutterColor };
