@@ -1,0 +1,86 @@
+// --- utils/param_substitution_util.dart ---
+
+import 'package:flutter/material.dart';
+import '../../models/oscal_models.dart';
+import 'params_util.dart'; // For expandParams()
+
+List<InlineSpan> substituteParamsIntoTextSpans(
+  BuildContext context,
+  String text,
+  List<Parameter> parameters,
+) {
+  final paramMap = {
+    for (var param in expandParams(parameters)) param.id: param,
+  };
+
+  final regex = RegExp(r'\{\{\s*insert:\s*param,\s*([^\s\}]+)\s*\}\}');
+  final matches = regex.allMatches(text);
+
+  if (matches.isEmpty) {
+    return [TextSpan(text: text)];
+  }
+
+  final spans = <InlineSpan>[];
+  int lastMatchEnd = 0;
+
+  for (final match in matches) {
+    if (match.start > lastMatchEnd) {
+      spans.add(TextSpan(text: text.substring(lastMatchEnd, match.start)));
+    }
+
+    final paramId = match.group(1)?.trim();
+    if (paramId == null || !paramMap.containsKey(paramId)) {
+      spans.add(TextSpan(
+        text: '[Unknown Parameter]',
+        style: const TextStyle(color: Colors.red),
+      ));
+    } else {
+      final param = paramMap[paramId]!;
+      final expandedText = _buildParameterText(param);
+      spans.add(TextSpan(
+        text: expandedText,
+        style: const TextStyle(fontWeight: FontWeight.bold, fontStyle: FontStyle.italic),
+      ));
+    }
+
+    lastMatchEnd = match.end;
+  }
+
+  if (lastMatchEnd < text.length) {
+    spans.add(TextSpan(text: text.substring(lastMatchEnd)));
+  }
+
+  return spans;
+}
+
+String _buildParameterText(Parameter param) {
+  if (param.choice != null && param.choice!.isNotEmpty) {
+    // Choices (comma separated with "or" if needed)
+    if (param.choice!.length == 1) {
+      return param.choice!.first;
+    } else if (param.choice!.length == 2) {
+      return '${param.choice![0]} or ${param.choice![1]}';
+    } else {
+      return param.choice!.sublist(0, param.choice!.length - 1).join(', ') +
+          ', or ${param.choice!.last}';
+    }
+  } else if (param.select?.choice != null && param.select!.choice.isNotEmpty) {
+    // Select with choice (also comma separated)
+    if (param.select!.choice.length == 1) {
+      return param.select!.choice.first;
+    } else if (param.select!.choice.length == 2) {
+      return '${param.select!.choice[0]} or ${param.select!.choice[1]}';
+    } else {
+      return param.select!.choice.sublist(0, param.select!.choice.length - 1).join(', ') +
+          ', or ${param.select!.choice.last}';
+    }
+  } else if (param.label != null) {
+    // Fallback to label
+    if (param.id.contains('_odp')) {
+      return 'organization-defined ${param.label}';
+    }
+    return param.label!;
+  } else {
+    return '[Param]';
+  }
+}

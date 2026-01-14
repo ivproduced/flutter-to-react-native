@@ -1,0 +1,153 @@
+/* src/screens/ControlDashboardScreen.css */
+
+.control-dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--background-color);
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 12px;
+  padding-bottom: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.dashboard-header {
+  padding: 24px 0 12px;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.nav-options {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.nav-option-card {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  background-color: var(--card-background);
+  border-radius: 14px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.nav-option-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.nav-option-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  margin-right: 20px;
+}
+
+.nav-option-icon .material-icons {
+  font-size: 28px;
+}
+
+.nav-option-content {
+  flex: 1;
+}
+
+.nav-option-label {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text-primary);
+}
+
+.nav-option-arrow {
+  color: var(--text-secondary);
+  font-size: 20px;
+}
+
+.upgrade-banner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  margin-top: 32px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 16px;
+  color: white;
+}
+
+.upgrade-banner .material-icons {
+  font-size: 32px;
+  color: #ffd700;
+}
+
+.upgrade-text {
+  flex: 1;
+}
+
+.upgrade-text h3 {
+  margin: 0 0 4px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.upgrade-text p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.upgrade-button {
+  padding: 10px 24px;
+  background-color: white;
+  color: #667eea;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.upgrade-button:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .dashboard-content {
+    padding: 8px;
+  }
+
+  .nav-options {
+    gap: 12px;
+  }
+
+  .nav-option-card {
+    padding: 14px;
+  }
+
+  .nav-option-icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+  }
+
+  .upgrade-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+}

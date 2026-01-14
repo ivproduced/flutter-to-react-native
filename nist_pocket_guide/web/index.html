@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <!-- Ensure correct base path for Flutter web assets -->
+  <base href="/nist_pocket_guide//">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="nist_pocket_guide">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>nist_pocket_guide</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    /* Base reset */
+    html, body { margin: 0; padding: 0; }
+    /* popup overlay will cover full screen */
+    #warning-popup {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.75);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+    #warning-popup .box {
+      background: white;
+      padding: 24px;
+      max-width: 400px;
+      text-align: center;
+      border-radius: 8px;
+    }
+    /* Keep app-content full-screen behind popup */
+    #app-content { position: absolute; top: 0; left:0; right:0; bottom:0; }
+  </style>
+</head>
+<body>
+  <!-- Warning click-through popup -->
+  <div id="warning-popup">
+    <div class="box">
+      <p>This site is for testing purposes only. Do not use any proprietary data in this web application. For Demo purposes only, the web application has been limited to the AC family of controls.</p>
+      <button id="warning-ok-button">Continue</button>
+    </div>
+  </div>
+
+  <div id="app-content">
+    <script src="flutter_bootstrap.js" async></script>
+  </div>
+  <!-- Script to hide popup on button click -->
+  <script>
+    window.addEventListener('load', () => {
+      const popup = document.getElementById('warning-popup');
+      const btn = document.getElementById('warning-ok-button');
+      btn.addEventListener('click', () => {
+        popup.style.display = 'none';
+      });
+    });
+  </script>
+</body>
+</html>

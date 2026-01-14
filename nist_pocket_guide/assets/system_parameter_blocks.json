@@ -1,0 +1,231 @@
+[
+  {
+    "id": "roleAccountTypeDefReview",
+    "title": "Role Responsible for Account Type Definition and Review",
+    "summary": "The specific job title or group responsible for formally defining what types of accounts are allowed/prohibited and for reviewing these definitions periodically.",
+    "examples": ["CISO", "IAM Steering Committee", "IT Policy Review Board"]
+  },
+  {
+    "id": "coreSystemToolName",
+    "title": "Core System Security Tool Name",
+    "summary": "The primary software or system used to manage security and access control on a central or critical system platform.",
+    "examples": ["CA Top Secret", "IBM RACF", "SAP GRC Access Control"]
+  },
+  {
+    "id": "directoryServiceName",
+    "title": "Directory Service Name",
+    "summary": "The enterprise's main directory service for identities and authentication.",
+    "examples": ["Microsoft Active Directory", "Azure AD (Entra ID)", "Okta Universal Directory"]
+  },
+  {
+    "id": "appRoleMechanism",
+    "title": "Application Role Definition Mechanism",
+    "summary": "The method or technology used within applications to define internal roles and permissions.",
+    "examples": ["Java EE Annotations", "App RBAC module", "Spring Security"]
+  },
+  {
+    "id": "reviewFreqAccountTypeDefs",
+    "title": "Review Frequency for Account Type Definitions",
+    "summary": "How often definitions of allowed/prohibited account types are reviewed.",
+    "examples": ["Annually", "Biennially", "Every 18 months"]
+  },
+  {
+    "id": "defaultUserAccountManager",
+    "title": "Default User Account Manager",
+    "summary": "The standard role typically assigned responsibility for a user's account.",
+    "examples": ["Direct Supervisor", "Department Head", "Reporting Manager"]
+  },
+  {
+    "id": "defaultServiceAccountManager",
+    "title": "Default Service Account Manager",
+    "summary": "The standard role typically assigned responsibility for a non-human account.",
+    "examples": ["Application Owner", "System Administrator", "Database Administrator"]
+  },
+  {
+    "id": "iamSolutionName",
+    "title": "IAM Solution Name",
+    "summary": "The enterprise-wide system for identity lifecycle and access management.",
+    "examples": ["SailPoint IdentityIQ", "Okta Lifecycle Management", "Microsoft Entra ID Governance"]
+  },
+  {
+    "id": "reviewRoleManagerAssign",
+    "title": "Reviewing Role for Manager Assignments",
+    "summary": "The role responsible for verifying account manager assignments.",
+    "examples": ["HR Department", "IAM Governance Team", "Internal Audit"]
+  },
+  {
+    "id": "freqManagerAssignReview",
+    "title": "Frequency of Manager Assignment Review",
+    "summary": "How often account manager assignments are formally reviewed.",
+    "examples": ["Annually", "Semi-annually", "As part of user access reviews"]
+  },
+  {
+    "id": "roleDefineMembershipPrereqs",
+    "title": "Role Defining Membership Prerequisites",
+    "summary": "The role establishing criteria for group or role membership.",
+    "examples": ["Data Owner", "Security Architecture Board", "Compliance Department"]
+  },
+  {
+    "id": "serviceMgmtPlatformName",
+    "title": "Service Management Platform Name",
+    "summary": "The system for managing IT service requests, incidents, and changes.",
+    "examples": ["ServiceNow", "Jira Service Management", "BMC Helix ITSM"]
+  },
+  {
+    "id": "freqPrereqVerify",
+    "title": "Frequency of Prerequisite Verification",
+    "summary": "How often fulfillment of prerequisites for group/role membership is re-verified.",
+    "examples": ["Annually", "Prior to access recertification", "Upon role change"]
+  },
+  {
+    "id": "roleSpecifyAuthAndMembership",
+    "title": "Role Specifying Authorizations and Memberships",
+    "summary": "The role defining specific access rights and group/role assignments.",
+    "examples": ["Application Owner", "Data Steward", "Resource Owner"]
+  },
+  {
+    "id": "approveRoleAccountCreate",
+    "title": "Approving Roles for Account Creation",
+    "summary": "The roles required to approve new user account creation.",
+    "examples": ["Hiring Manager", "Department Head", "IT Security Manager"]
+  },
+  {
+    "id": "approveRoleSensitiveAccess",
+    "title": "Approving Roles for Sensitive Access",
+    "summary": "Specific roles required to approve access to highly sensitive data or systems.",
+    "examples": ["Data Owner for PII", "Chief Privacy Officer", "System Owner of Financials"]
+  },
+  {
+    "id": "roleApproveAppAccess",
+    "title": "Role Approving Application Access",
+    "summary": "The role responsible for approving user access to specific applications.",
+    "examples": ["Application Business Owner", "Application Technical Lead", "Module Owner"]
+  },
+  {
+    "id": "dirServiceAutomationInterface",
+    "title": "Directory Service Automation Interface",
+    "summary": "The scripting language, API, or toolset for automating directory service tasks.",
+    "examples": ["PowerShell for AD", "Microsoft Graph API", "LDAP scripting"]
+  },
+  {
+    "id": "coreSystemToolCommands",
+    "title": "Core System Security Tool Commands",
+    "summary": "Specific command language for security on the core system.",
+    "examples": ["TSS commands", "RACF TSO commands", "SQL GRANT/REVOKE"]
+  },
+  {
+    "id": "roleManualLifecycleActions",
+    "title": "Role Performing Manual Lifecycle Actions",
+    "summary": "The role manually executing account lifecycle tasks when automation fails or isn't used.",
+    "examples": ["Help Desk L2", "Mainframe Security Admin", "Directory Services Team"]
+  },
+  {
+    "id": "hrSystemName",
+    "title": "HR System Name",
+    "summary": "The enterprise's Human Resources information system.",
+    "examples": ["Workday", "SAP SuccessFactors", "Oracle PeopleSoft HCM"]
+  },
+  {
+    "id": "roleMonitorAccountUsage",
+    "title": "Role Monitoring Account Usage/Alerts",
+    "summary": "The role actively monitoring account activity logs and responding to alerts.",
+    "examples": ["SOC Analyst", "IT Security Team", "System Monitoring Team"]
+  },
+
+  {
+    "id": "attributesForSystemAccess",
+    "title": "Attributes for System Access",
+    "summary": "User, account, or device attributes used for authorizing system access.",
+    "examples": ["Department Code", "Security Clearance", "Device Compliance"]
+  },
+  {
+    "id": "timeframeDisableAccounts",
+    "title": "Timeframe for Disabling Accounts",
+    "summary": "The defined period within which accounts must be disabled after a triggering event.",
+    "examples": ["Immediately", "Within 24 hours", "End of business day"]
+  },
+  {
+    "id": "siemToolName",
+    "title": "SIEM Tool Name",
+    "summary": "The Security Information and Event Management (SIEM) tool used for log aggregation and analysis.",
+    "examples": ["Splunk", "Microsoft Sentinel", "QRadar"]
+  },
+  {
+    "id": "freqAlertReview",
+    "title": "Frequency of Alert Review",
+    "summary": "How often security alerts (e.g., from SIEM) are reviewed by responsible personnel.",
+    "examples": ["Continuously (real-time)", "Daily", "Within 4 hours of generation"]
+  },
+  {
+    "id": "notifiedRolesAccountStatus",
+    "title": "Notified Roles for Account Status Changes",
+    "summary": "Personnel or roles to be notified upon account status changes (creation, modification, disablement).",
+    "examples": ["Account Manager", "Security Team", "User's Supervisor"]
+  },
+  {
+    "id": "timeframeAccountChanges",
+    "title": "Notification Timeframe for Account Changes",
+    "summary": "The period within which notifications about account changes must be sent.",
+    "examples": ["Immediately", "Within 1 business day", "Within 1 hour"]
+  },
+  {
+    "id": "roleDefineSystemUsage",
+    "title": "Role Defining Intended System Usage",
+    "summary": "The role responsible for defining and documenting the intended and authorized uses of the system for different user roles.",
+    "examples": ["System Owner", "Business Process Owner", "Application Owner"]
+  },
+  {
+    "id": "stdAccountReviewFreq",
+    "title": "Standard Account Review Frequency",
+    "summary": "How often standard user accounts are reviewed for continued need and appropriate access.",
+    "examples": ["Quarterly", "Semi-annually", "Annually"]
+  },
+  {
+    "id": "privAccountReviewFreq",
+    "title": "Privileged Account Review Frequency",
+    "summary": "How often privileged accounts (admin, service) are reviewed.",
+    "examples": ["Monthly", "Quarterly", "More frequently than standard accounts"]
+  },
+  {
+    "id": "reviewRoleAccounts",
+    "title": "Reviewing/Attesting Roles for Accounts",
+    "summary": "The roles responsible for performing and attesting to user access reviews.",
+    "examples": ["Account Manager", "System Owner", "Data Owner"]
+  },
+  {
+    "id": "accessCertToolName",
+    "title": "Access Certification Tool Name",
+    "summary": "The tool used to conduct and manage user access certification campaigns.",
+    "examples": ["SailPoint IdentityIQ", "Saviynt", "Spreadsheets and Manual Tracking (if applicable)"]
+  },
+  {
+    "id": "roleManageSharedAuths",
+    "title": "Role Managing Shared Account Authenticators",
+    "summary": "The role responsible for managing and changing authenticators for shared or group accounts.",
+    "examples": ["Designated Account Custodian", "Team Lead", "Application Administrator"]
+  },
+  {
+    "id": "pamSolutionName",
+    "title": "PAM Solution Name",
+    "summary": "The Privileged Access Management (PAM) solution used for controlling and monitoring privileged accounts.",
+    "examples": ["CyberArk", "Delinea Secret Server", "HashiCorp Vault"]
+  },
+  {
+    "id": "timeframeDisableLeavers",
+    "title": "Timeframe for Disabling/Removing Access for Leavers",
+    "summary": "The maximum time allowed to disable or remove access for personnel who have left the organization.",
+    "examples": ["Same day of departure", "Within 24 hours", "Prior to last day"]
+  },
+  {
+    "id": "timeframeModifyMovers",
+    "title": "Timeframe for Modifying Access for Movers",
+    "summary": "The maximum time allowed to review and adjust access for personnel who have transferred roles.",
+    "examples": ["Within 3 business days of role change", "Prior to new role start date", "Within 1 week"]
+  },
+  {
+    "id": "applicationPlatformName",
+    "title": "Application Platform Name",
+    "summary": "The primary platform or environment where key applications are hosted (can be general if not specific to App Role Mechanism).",
+    "examples": ["AWS", "Azure App Service", "On-premise VMware Cluster", "Mainframe CICS"]
+  }
+]

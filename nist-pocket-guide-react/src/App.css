@@ -1,0 +1,172 @@
+/* src/App.css */
+
+:root {
+  /* Light theme colors */
+  --primary-color: #1976D2;
+  --primary-color-light: #42A5F5;
+  --primary-color-dark: #1565C0;
+  --background-color: #F5F5F5;
+  --card-background: #FFFFFF;
+  --text-primary: rgba(0, 0, 0, 0.87);
+  --text-secondary: rgba(0, 0, 0, 0.6);
+  --divider-color: rgba(0, 0, 0, 0.12);
+}
+
+[data-theme="dark"] {
+  /* Dark theme colors */
+  --primary-color: #90CAF9;
+  --primary-color-light: #64B5F6;
+  --primary-color-dark: #42A5F5;
+  --background-color: #121212;
+  --card-background: #1E1E1E;
+  --text-primary: rgba(255, 255, 255, 0.87);
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --divider-color: rgba(255, 255, 255, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--text-primary);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.loading-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--background-color);
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid var(--primary-color-light);
+  border-top-color: var(--primary-color);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.onboarding-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-color-dark) 100%);
+  color: white;
+}
+
+.onboarding-content {
+  text-align: center;
+  padding: 40px;
+  max-width: 600px;
+}
+
+.onboarding-content h1 {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.onboarding-content p {
+  font-size: 18px;
+  margin-bottom: 32px;
+  opacity: 0.9;
+}
+
+.primary-button {
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary-color);
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.primary-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.primary-button:active {
+  transform: translateY(0);
+}
+
+/* Material Icons */
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Common AppBar Styles */
+.app-bar {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 16px 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.app-bar h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  flex: 1;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.back-button .material-icons {
+  font-size: 24px;
+}
+
+

@@ -1,0 +1,58 @@
+/* src/screens/RecentsListScreen.css */
+
+.recents-screen {
+  padding: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.clear-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.clear-button:hover {
+  background-color: #d32f2f;
+  transform: translateY(-1px);
+}
+
+.clear-button .material-icons {
+  font-size: 18px;
+}
+
+.recents-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.recent-item {
+  position: relative;
+}
+
+.recent-item::before {
+  content: '';
+  position: absolute;
+  left: -12px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: var(--primary-color);
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.recent-item:hover::before {
+  opacity: 1;
+}

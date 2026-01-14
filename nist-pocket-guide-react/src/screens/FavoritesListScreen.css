@@ -1,0 +1,134 @@
+/* src/screens/FavoritesListScreen.css */
+
+.favorites-screen {
+  padding: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.screen-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--text-primary);
+  transition: background-color 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.screen-header h1 {
+  flex: 1;
+  margin: 0;
+  font-size: 24px;
+  color: var(--text-primary);
+}
+
+.count-badge {
+  padding: 4px 12px;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 12px;
+}
+
+.pro-required {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.pro-required .material-icons {
+  font-size: 64px;
+  color: #667eea;
+  margin-bottom: 16px;
+}
+
+.pro-required h2 {
+  font-size: 20px;
+  color: var(--text-primary);
+  margin: 0 0 8px 0;
+}
+
+.pro-required p {
+  font-size: 16px;
+  color: var(--text-secondary);
+  margin: 0 0 24px 0;
+  max-width: 400px;
+}
+
+.upgrade-button {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.upgrade-button:hover {
+  transform: translateY(-2px);
+}
+
+.loading {
+  text-align: center;
+  padding: 48px;
+  color: var(--text-secondary);
+  font-size: 16px;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.empty-state .material-icons {
+  font-size: 64px;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+  opacity: 0.5;
+}
+
+.empty-state h2 {
+  font-size: 20px;
+  color: var(--text-primary);
+  margin: 0 0 8px 0;
+}
+
+.empty-state p {
+  font-size: 16px;
+  color: var(--text-secondary);
+  margin: 0;
+  max-width: 400px;
+}
+
+.favorites-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

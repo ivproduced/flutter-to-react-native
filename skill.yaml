@@ -1,0 +1,129 @@
+name: flutter_to_react_native
+version: 0.1.0
+description: Converts Flutter/Dart widget code to React Native JSX components
+author: Sanket Sahu
+
+skill:
+  type: function
+  function:
+    name: convert_flutter_to_react_native
+    description: |
+      Converts Flutter widget code (Dart) to React Native component code (JSX).
+      Supports common Flutter widgets like Container, Row, Column, Text, Stack, and Positioned.
+      Handles properties like width, height, padding, margin, colors, border radius, and text styles.
+    parameters:
+      type: object
+      properties:
+        flutter_code:
+          type: string
+          description: The Flutter/Dart widget code to convert. Should contain valid Dart syntax with Flutter widgets.
+        options:
+          type: object
+          description: Optional conversion settings
+          properties:
+            include_imports:
+              type: boolean
+              description: Whether to include React Native import statements in the output
+              default: false
+            indent_size:
+              type: number
+              description: Number of spaces for code indentation
+              default: 2
+      required:
+        - flutter_code
+
+capabilities:
+  supported_widgets:
+    - Container
+    - Text
+    - Row
+    - Column
+    - Stack
+    - Positioned
+    - Expanded
+    - SizedBox
+    - Padding
+  
+  supported_properties:
+    - width
+    - height
+    - padding
+    - margin
+    - color
+    - backgroundColor
+    - borderRadius
+    - border
+    - alignment
+    - flex
+    - position
+  
+  supported_text_styles:
+    - color
+    - fontSize
+    - fontWeight
+    - fontStyle
+    - fontFamily
+
+examples:
+  - input:
+      flutter_code: |
+        Container(
+          width: 200.0,
+          height: 100.0,
+          child: Text('Hello World')
+        )
+    output: |
+      <View style={{width: 200, height: 100}}>
+        <Text>Hello World</Text>
+      </View>
+
+  - input:
+      flutter_code: |
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text('First'),
+            Text('Second')
+          ]
+        )
+    output: |
+      <View style={{flexDirection: 'row', justifyContent: 'center'}}>
+        <Text>First</Text>
+        <Text>Second</Text>
+      </View>
+
+  - input:
+      flutter_code: |
+        Container(
+          padding: EdgeInsets.all(16.0),
+          decoration: BoxDecoration(
+            color: Color(0xFF2196F3),
+            borderRadius: BorderRadius.circular(8.0)
+          ),
+          child: Text(
+            'Styled Text',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 16.0,
+              fontWeight: FontWeight.bold
+            )
+          )
+        )
+    output: |
+      <View style={{padding: 16, backgroundColor: '#2196F3', borderRadius: 8}}>
+        <Text style={{color: '#FFFFFF', fontSize: 16, fontWeight: 'bold'}}>Styled Text</Text>
+      </View>
+
+limitations:
+  - Custom Flutter widgets are not supported
+  - Complex nested structures may require manual adjustment
+  - Animations and gestures require manual implementation
+  - StatefulWidget and state management patterns need to be rewritten
+
+tags:
+  - flutter
+  - react-native
+  - conversion
+  - mobile
+  - dart
+  - jsx

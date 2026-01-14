@@ -1,0 +1,71 @@
+/* src/components/BottomNavBar.css */
+
+.bottom-nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 64px;
+  padding: 0 24px;
+  background-color: var(--card-background);
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--text-secondary);
+  transition: all 0.2s ease;
+}
+
+.nav-item:hover:not(.disabled) {
+  color: var(--primary-color);
+  background-color: rgba(33, 150, 243, 0.1);
+  border-radius: 8px;
+}
+
+.nav-item.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.nav-item .material-icons {
+  font-size: 24px;
+}
+
+.nav-label {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.pro-indicator {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  padding: 2px 4px;
+  background-color: #667eea;
+  color: white;
+  font-size: 8px;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .bottom-nav-bar {
+    padding: 0 12px;
+  }
+
+  .nav-item {
+    padding: 8px 12px;
+  }
+
+  .nav-label {
+    font-size: 11px;
+  }
+}

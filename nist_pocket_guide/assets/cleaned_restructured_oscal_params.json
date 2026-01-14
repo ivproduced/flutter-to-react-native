@@ -1,0 +1,5231 @@
+{
+  "personnel or roles": {
+    "organization-defined personnel or roles": {
+      "prm_ids": [
+        "ac-1_prm_1",
+        "at-1_prm_1",
+        "au-1_prm_1",
+        "ca-1_prm_1",
+        "ca-7_prm_4",
+        "cm-1_prm_1",
+        "cp-1_prm_1",
+        "cp-2_prm_1",
+        "ia-1_prm_1",
+        "ir-1_prm_1",
+        "ma-1_prm_1",
+        "mp-1_prm_1",
+        "mp-2_prm_2",
+        "pe-1_prm_1",
+        "pl-1_prm_1",
+        "pm-31_prm_4",
+        "ps-1_prm_1",
+        "pt-1_prm_1",
+        "ra-1_prm_1",
+        "sa-1_prm_1",
+        "sc-1_prm_1",
+        "si-1_prm_1",
+        "sr-1_prm_1"
+      ]
+    },
+    "personnel or roles": {
+      "odp_ids": [
+        "ac-01_odp.01",
+        "ac-01_odp.02",
+        "ac-02_odp.03",
+        "ac-02_odp.05",
+        "ac-02.12_odp.02",
+        "ac-06.05_odp",
+        "at-01_odp.01",
+        "at-01_odp.02",
+        "at-03.01_odp.01",
+        "at-03.02_odp.01",
+        "at-03.05_odp.01",
+        "au-01_odp.01",
+        "au-01_odp.02",
+        "au-05_odp.01",
+        "au-06_odp.03",
+        "au-09_odp",
+        "au-12_odp.02",
+        "au-13_odp.03",
+        "ca-01_odp.01",
+        "ca-01_odp.02",
+        "ca-07_odp.04",
+        "ca-07_odp.06",
+        "cm-01_odp.01",
+        "cm-01_odp.02",
+        "cm-07.07_odp",
+        "cm-08.03_odp.06",
+        "cm-08.09_odp",
+        "cm-09_odp",
+        "cp-01_odp.01",
+        "cp-01_odp.02",
+        "cp-02_odp.01",
+        "cp-02_odp.02",
+        "ia-01_odp.01",
+        "ia-01_odp.02",
+        "ia-04_odp.01",
+        "ia-05.16_odp.04",
+        "ir-01_odp.01",
+        "ir-01_odp.02",
+        "ir-06.02_odp",
+        "ir-08_odp.01",
+        "ir-09_odp.01",
+        "ir-09_odp.02",
+        "ma-01_odp.01",
+        "ma-01_odp.02",
+        "ma-02_odp.01",
+        "ma-03.03_odp",
+        "ma-04.05_odp.01",
+        "mp-01_odp.01",
+        "mp-01_odp.02",
+        "mp-02_odp.02",
+        "mp-02_odp.04",
+        "pe-01_odp.01",
+        "pe-01_odp.02",
+        "pe-13.01_odp.01",
+        "pe-13.02_odp.01",
+        "pe-14.02_odp",
+        "pe-15.01_odp.01",
+        "pl-01_odp.01",
+        "pl-01_odp.02",
+        "pl-02_odp.02",
+        "pm-31_odp.04",
+        "pm-31_odp.05",
+        "ps-01_odp.01",
+        "ps-01_odp.02",
+        "ps-04.02_odp.03",
+        "ps-05_odp.03",
+        "ps-07_odp.01",
+        "ps-08_odp.01",
+        "pt-01_odp.01",
+        "pt-01_odp.02",
+        "ra-01_odp.01",
+        "ra-01_odp.02",
+        "ra-03_odp.04",
+        "ra-05_odp.04",
+        "sa-01_odp.01",
+        "sa-01_odp.02",
+        "sa-05_odp.02",
+        "sa-09.01_odp",
+        "sa-15.07_odp.03",
+        "sc-01_odp.01",
+        "sc-01_odp.02",
+        "si-01_odp.01",
+        "si-01_odp.02",
+        "si-03_odp.06",
+        "si-04_odp.04",
+        "si-04.05_odp.01",
+        "si-04.12_odp.01",
+        "si-04.22_odp.03",
+        "si-04.24_odp.02",
+        "si-05_odp.03",
+        "si-06_odp.06",
+        "si-06.03_odp",
+        "si-07.02_odp",
+        "si-07.08_odp.02",
+        "si-11_odp",
+        "sr-01_odp.01",
+        "sr-01_odp.02",
+        "sr-11_odp.03",
+        "sr-11.01_odp"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['organization-level', 'mission/business process-level', 'system-level']}": {
+    "{\"choice\": [\"organization-level\", \"mission/business process-level\", \"system-level\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "ac-01_odp.03",
+        "at-01_odp.03",
+        "au-01_odp.03",
+        "ca-01_odp.03",
+        "cm-01_odp.03",
+        "cp-01_odp.03",
+        "ia-01_odp.03",
+        "ir-01_odp.03",
+        "ma-01_odp.03",
+        "mp-01_odp.03",
+        "pe-01_odp.03",
+        "pl-01_odp.03",
+        "ps-01_odp.03",
+        "pt-01_odp.03",
+        "ra-01_odp.03",
+        "sa-01_odp.03",
+        "si-01_odp.03",
+        "sr-01_odp.03"
+      ]
+    }
+  },
+  "official": {
+    "official": {
+      "odp_ids": [
+        "ac-01_odp.04",
+        "at-01_odp.04",
+        "au-01_odp.04",
+        "ca-01_odp.04",
+        "cm-01_odp.04",
+        "cp-01_odp.04",
+        "ia-01_odp.04",
+        "ir-01_odp.04",
+        "ma-01_odp.04",
+        "mp-01_odp.04",
+        "pe-01_odp.04",
+        "pl-01_odp.04",
+        "ps-01_odp.04",
+        "pt-01_odp.04",
+        "ra-01_odp.04",
+        "sa-01_odp.04",
+        "sc-01_odp.04",
+        "si-01_odp.04",
+        "sr-01_odp.04"
+      ]
+    }
+  },
+  "frequency": {
+    "frequency": {
+      "odp_ids": [
+        "ac-01_odp.05",
+        "ac-01_odp.07",
+        "ac-02_odp.10",
+        "ac-06.07_odp.01",
+        "ac-16_odp.10",
+        "ac-16_odp.11",
+        "ac-22_odp",
+        "at-01_odp.05",
+        "at-01_odp.07",
+        "at-02_odp.01",
+        "at-02_odp.02",
+        "at-02_odp.06",
+        "at-03_odp.03",
+        "at-03_odp.04",
+        "at-03.01_odp.02",
+        "at-03.02_odp.02",
+        "at-03.05_odp.02",
+        "at-06_odp.01",
+        "au-01_odp.05",
+        "au-01_odp.07",
+        "au-02_odp.04",
+        "au-04.01_odp",
+        "au-06_odp.01",
+        "au-09.02_odp",
+        "au-10.02_odp.01",
+        "au-13_odp.02",
+        "au-13.02_odp",
+        "ca-01_odp.05",
+        "ca-01_odp.07",
+        "ca-03_odp.03",
+        "ca-05_odp",
+        "ca-06_odp",
+        "ca-07_odp.05",
+        "ca-07_odp.07",
+        "ca-08_odp.01",
+        "ca-08.03_odp.01",
+        "ca-09_odp.03",
+        "cm-01_odp.05",
+        "cm-01_odp.07",
+        "cm-02_odp.01",
+        "cm-03_odp.04",
+        "cm-03.07_odp.01",
+        "cm-05.05_odp.01",
+        "cm-05.05_odp.02",
+        "cm-07.01_odp.01",
+        "cm-07.04_odp.02",
+        "cm-07.05_odp.02",
+        "cm-07.09_odp.02",
+        "cm-08_odp.02",
+        "cm-08.03_odp.04",
+        "cm-11_odp.03",
+        "cp-01_odp.05",
+        "cp-01_odp.07",
+        "cp-02_odp.05",
+        "cp-03_odp.02",
+        "cp-03_odp.03",
+        "cp-04_odp.01",
+        "cp-08.04_odp.01",
+        "cp-08.04_odp.02",
+        "cp-08.05_odp",
+        "cp-09_odp.02",
+        "cp-09_odp.03",
+        "cp-09_odp.04",
+        "cp-09.01_odp.01",
+        "cp-09.01_odp.02",
+        "ia-01_odp.05",
+        "ia-01_odp.07",
+        "ia-05.01_odp.01",
+        "ir-01_odp.05",
+        "ir-01_odp.07",
+        "ir-02_odp.02",
+        "ir-02_odp.03",
+        "ir-03_odp.01",
+        "ir-08_odp.02",
+        "ir-09.02_odp",
+        "ma-01_odp.05",
+        "ma-01_odp.07",
+        "ma-03_odp",
+        "mp-01_odp.05",
+        "mp-01_odp.07",
+        "mp-06.02_odp.01",
+        "mp-06.02_odp.02",
+        "mp-08.02_odp.01",
+        "mp-08.02_odp.02",
+        "pe-01_odp.05",
+        "pe-01_odp.07",
+        "pe-02_odp",
+        "pe-03_odp.08",
+        "pe-03_odp.09",
+        "pe-03_odp.10",
+        "pe-03.02_odp",
+        "pe-06_odp.01",
+        "pe-06.03_odp.02",
+        "pe-08_odp.02",
+        "pe-13.04_odp.01",
+        "pe-14_odp.04",
+        "pl-01_odp.05",
+        "pl-01_odp.07",
+        "pl-02_odp.03",
+        "pl-04_odp.01",
+        "pl-04_odp.03",
+        "pl-07_odp",
+        "pl-08_odp",
+        "pm-01_odp.01",
+        "pm-05_odp",
+        "pm-05.01_odp",
+        "pm-09_odp",
+        "pm-11_odp",
+        "pm-17_odp.01",
+        "pm-17_odp.02",
+        "pm-18_odp",
+        "pm-25_odp.01",
+        "pm-25_odp.02",
+        "pm-25_odp.03",
+        "pm-25_odp.04",
+        "pm-27_odp.04",
+        "pm-28_odp.02",
+        "pm-30_odp",
+        "pm-31_odp.06",
+        "pm-31_odp.07",
+        "ps-01_odp.05",
+        "ps-01_odp.07",
+        "ps-02_odp",
+        "ps-03_odp.02",
+        "ps-06_odp.01",
+        "ps-06_odp.02",
+        "pt-01_odp.05",
+        "pt-01_odp.07",
+        "pt-04.02_odp.02",
+        "pt-05_odp.01",
+        "pt-05.01_odp",
+        "pt-06.01_odp",
+        "pt-06.02_odp",
+        "ra-01_odp.05",
+        "ra-01_odp.07",
+        "ra-03_odp.03",
+        "ra-03_odp.05",
+        "ra-03.01_odp.02",
+        "ra-05.02_odp.02",
+        "ra-06_odp.03",
+        "ra-10_odp",
+        "sa-01_odp.05",
+        "sa-01_odp.07",
+        "sa-15_odp.01",
+        "sa-15.01_odp.02",
+        "sa-15.07_odp.01",
+        "sc-01_odp.05",
+        "sc-01_odp.07",
+        "sc-07.04_odp",
+        "sc-07.10_odp",
+        "sc-29.01_odp",
+        "sc-45.01_odp.01",
+        "si-01_odp.05",
+        "si-01_odp.07",
+        "si-02.02_odp.02",
+        "si-03_odp.02",
+        "si-03.06_odp",
+        "si-04_odp.06",
+        "si-04.04_odp.01",
+        "si-04.04_odp.03",
+        "si-04.09_odp",
+        "si-06_odp.05",
+        "si-07.01_odp.04",
+        "si-07.01_odp.08",
+        "si-07.01_odp.12",
+        "si-08.02_odp",
+        "si-14_odp.03",
+        "si-14.02_odp.03",
+        "si-18_odp.01",
+        "si-18_odp.02",
+        "si-18_odp.03",
+        "si-18_odp.04",
+        "si-19_odp.02",
+        "sr-01_odp.05",
+        "sr-01_odp.07",
+        "sr-02_odp.02",
+        "sr-06_odp",
+        "sr-10_odp.03",
+        "sr-11.03_odp"
+      ]
+    },
+    "organization-defined frequency": {
+      "prm_ids": [
+        "ac-16_prm_7",
+        "at-2_prm_1",
+        "ca-7_prm_5",
+        "cm-5.5_prm_1",
+        "cp-8.4_prm_1",
+        "cp-9.1_prm_1",
+        "mp-6.2_prm_1",
+        "mp-8.2_prm_1",
+        "pe-3_prm_9",
+        "pm-17_prm_1",
+        "pm-25_prm_1",
+        "pm-31_prm_5",
+        "si-4.4_prm_1",
+        "si-7.1_prm_4",
+        "si-18_prm_1"
+      ]
+    }
+  },
+  "events": {
+    "events": {
+      "odp_ids": [
+        "ac-01_odp.06",
+        "ac-01_odp.08",
+        "at-01_odp.06",
+        "at-01_odp.08",
+        "at-02_odp.03",
+        "at-02_odp.04",
+        "at-02_odp.07",
+        "at-03_odp.05",
+        "au-01_odp.06",
+        "au-01_odp.08",
+        "ca-01_odp.06",
+        "ca-01_odp.08",
+        "cm-01_odp.06",
+        "cm-01_odp.08",
+        "cp-01_odp.06",
+        "cp-01_odp.08",
+        "cp-03_odp.04",
+        "ia-01_odp.06",
+        "ia-01_odp.08",
+        "ia-05_odp.02",
+        "ir-01_odp.06",
+        "ir-01_odp.08",
+        "ir-02_odp.04",
+        "ma-01_odp.06",
+        "ma-01_odp.08",
+        "mp-01_odp.06",
+        "mp-01_odp.08",
+        "pe-01_odp.06",
+        "pe-01_odp.08",
+        "pe-06_odp.02",
+        "pl-01_odp.06",
+        "pl-01_odp.08",
+        "pm-01_odp.02",
+        "ps-01_odp.06",
+        "ps-01_odp.08",
+        "pt-01_odp.06",
+        "pt-01_odp.08",
+        "ra-01_odp.06",
+        "ra-01_odp.08",
+        "sa-01_odp.06",
+        "sa-01_odp.08",
+        "sc-01_odp.06",
+        "sc-01_odp.08",
+        "si-01_odp.06",
+        "si-01_odp.08",
+        "sr-01_odp.06",
+        "sr-01_odp.08"
+      ]
+    },
+    "organization-defined events": {
+      "prm_ids": [
+        "at-2_prm_2"
+      ]
+    }
+  },
+  "prerequisites and criteria": {
+    "prerequisites and criteria": {
+      "odp_ids": [
+        "ac-02_odp.01"
+      ]
+    }
+  },
+  "attributes (as required)": {
+    "attributes (as required)": {
+      "odp_ids": [
+        "ac-02_odp.02",
+        "ac-02_odp.09"
+      ]
+    }
+  },
+  "policy, procedures, prerequisites, and criteria": {
+    "policy, procedures, prerequisites, and criteria": {
+      "odp_ids": [
+        "ac-02_odp.04"
+      ]
+    }
+  },
+  "time period": {
+    "time period": {
+      "odp_ids": [
+        "ac-02_odp.06",
+        "ac-02_odp.07",
+        "ac-02_odp.08",
+        "ac-02.02_odp.02",
+        "ac-02.03_odp.01",
+        "ac-02.03_odp.02",
+        "ac-02.13_odp.01",
+        "ac-07_odp.02",
+        "ac-07_odp.04",
+        "ac-07.04_odp.03",
+        "ac-09.02_odp.02",
+        "ac-09.03_odp.02",
+        "ac-11_odp.02",
+        "ac-17.09_odp",
+        "at-04_odp",
+        "au-05_odp.02",
+        "au-05.01_odp.02",
+        "au-11_odp",
+        "cm-03_odp.01",
+        "cm-03.01_odp.03",
+        "cp-02.03_odp.02",
+        "cp-03_odp.01",
+        "cp-07_odp.02",
+        "cp-08_odp.02",
+        "cp-09.05_odp.01",
+        "cp-10_odp.01",
+        "cp-10_odp.02",
+        "ia-04_odp.02",
+        "ia-05.13_odp",
+        "ir-02_odp.01",
+        "ir-04.11_odp",
+        "ir-06_odp.01",
+        "ma-06_odp.02",
+        "pe-06.03_odp.03",
+        "pe-08_odp.01",
+        "pe-13.04_odp.02",
+        "pm-26_odp.01",
+        "pm-26_odp.02",
+        "pm-26_odp.03",
+        "pm-26_odp.04",
+        "ps-04_odp.01",
+        "ps-05_odp.04",
+        "ps-07_odp.02",
+        "ps-08_odp.02",
+        "ra-05.08_odp.02",
+        "sc-10_odp",
+        "sc-45.01_odp.03",
+        "si-02_odp",
+        "si-07.16_odp",
+        "si-10.02_odp.01",
+        "si-10.02_odp.02",
+        "si-13.04_odp.01"
+      ]
+    },
+    "organization-defined time period": {
+      "prm_ids": [
+        "pm-26_prm_1",
+        "si-10.2_prm_1"
+      ]
+    }
+  },
+  "automated mechanisms": {
+    "automated mechanisms": {
+      "odp_ids": [
+        "ac-02.01_odp",
+        "ac-21_odp.02",
+        "ac-21.01_odp",
+        "au-06.01_odp",
+        "au-13.01_odp",
+        "ca-05.01_odp",
+        "ca-07.06_odp",
+        "cm-02.02_odp",
+        "cm-03.01_odp.01",
+        "cm-03.03_odp",
+        "cm-05.01_odp",
+        "cm-06.01_odp.02",
+        "cm-06.01_odp.03",
+        "cm-06.01_odp.04",
+        "cm-08.02_odp.01",
+        "cm-08.02_odp.02",
+        "cm-08.02_odp.03",
+        "cm-08.02_odp.04",
+        "cm-08.03_odp.01",
+        "cm-08.03_odp.02",
+        "cm-08.03_odp.03",
+        "cm-08.08_odp",
+        "cm-11.03_odp.01",
+        "cm-11.03_odp.02",
+        "cp-04.03_odp",
+        "ir-02.02_odp",
+        "ir-03.01_odp",
+        "ir-04.01_odp",
+        "ir-05.01_odp.01",
+        "ir-05.01_odp.02",
+        "ir-05.01_odp.03",
+        "ir-06.01_odp",
+        "ir-07.01_odp",
+        "ma-02.02_odp.01",
+        "ma-02.02_odp.02",
+        "ma-02.02_odp.03",
+        "ma-06.03_odp",
+        "mp-04.02_odp.01",
+        "mp-04.02_odp.02",
+        "mp-04.02_odp.03",
+        "pe-06.02_odp.03",
+        "pe-08.01_odp.01",
+        "pe-08.01_odp.02",
+        "pe-15.01_odp.02",
+        "ps-04.02_odp.01",
+        "pt-02.02_odp",
+        "pt-03.02_odp",
+        "ra-05.06_odp",
+        "si-02.02_odp.01",
+        "si-04.12_odp.02",
+        "si-05.01_odp",
+        "si-18.01_odp"
+      ]
+    },
+    "organization-defined automated mechanisms": {
+      "prm_ids": [
+        "cm-6.1_prm_2",
+        "cm-8.2_prm_1",
+        "cm-8.3_prm_1",
+        "cm-11.3_prm_1",
+        "ir-5.1_prm_1",
+        "ma-2.2_prm_1",
+        "mp-4.2_prm_1",
+        "pe-8.1_prm_1"
+      ]
+    }
+  },
+  "{'choice': ['remove', 'disable']}": {
+    "{\"choice\": [\"remove\", \"disable\"]}": {
+      "odp_ids": [
+        "ac-02.02_odp.01"
+      ]
+    }
+  },
+  "time period of expected inactivity or description of when to log out": {
+    "time period of expected inactivity or description of when to log out": {
+      "odp_ids": [
+        "ac-02.05_odp"
+      ]
+    }
+  },
+  "dynamic privilege management capabilities": {
+    "dynamic privilege management capabilities": {
+      "odp_ids": [
+        "ac-02.06_odp"
+      ]
+    }
+  },
+  "{'choice': ['a role-based access scheme', 'an attribute-based access scheme']}": {
+    "{\"choice\": [\"a role-based access scheme\", \"an attribute-based access scheme\"]}": {
+      "odp_ids": [
+        "ac-02.07_odp"
+      ]
+    }
+  },
+  "system accounts": {
+    "system accounts": {
+      "odp_ids": [
+        "ac-02.08_odp",
+        "ac-02.11_odp.02"
+      ]
+    }
+  },
+  "conditions": {
+    "conditions": {
+      "odp_ids": [
+        "ac-02.09_odp",
+        "ac-03.10_odp.01",
+        "ac-04.09_odp.02",
+        "ac-04.10_odp.03",
+        "ac-04.10_odp.04",
+        "ac-08_odp.02",
+        "ca-09_odp.02",
+        "cp-12_odp.02",
+        "ia-02.13_odp.02",
+        "mp-06.08_odp.03"
+      ]
+    },
+    "organization-defined conditions": {
+      "prm_ids": [
+        "ac-4.10_prm_2"
+      ]
+    }
+  },
+  "circumstances and/or usage conditions": {
+    "circumstances and/or usage conditions": {
+      "odp_ids": [
+        "ac-02.11_odp.01"
+      ]
+    }
+  },
+  "atypical usage": {
+    "atypical usage": {
+      "odp_ids": [
+        "ac-02.12_odp.01"
+      ]
+    }
+  },
+  "significant risks": {
+    "significant risks": {
+      "odp_ids": [
+        "ac-02.13_odp.02"
+      ]
+    }
+  },
+  "privileged commands and/or other actions": {
+    "privileged commands and/or other actions": {
+      "odp_ids": [
+        "ac-03.02_odp"
+      ]
+    }
+  },
+  "mandatory access control policy": {
+    "organization-defined mandatory access control policy": {
+      "prm_ids": [
+        "ac-3.3_prm_1",
+        "ac-3.15_prm_1"
+      ]
+    },
+    "mandatory access control policy": {
+      "odp_ids": [
+        "ac-03.03_odp.01",
+        "ac-03.03_odp.02",
+        "ac-03.15_odp.01",
+        "ac-03.15_odp.02"
+      ]
+    }
+  },
+  "subjects": {
+    "subjects": {
+      "odp_ids": [
+        "ac-03.03_odp.03",
+        "ac-16.01_odp.01",
+        "ac-16.01_odp.03",
+        "ac-16.03_odp.03",
+        "ac-16.03_odp.05",
+        "ac-16.04_odp.05",
+        "ac-16.04_odp.07",
+        "ac-16.06_odp.05",
+        "ac-16.06_odp.07"
+      ]
+    }
+  },
+  "privileges": {
+    "privileges": {
+      "odp_ids": [
+        "ac-03.03_odp.04"
+      ]
+    }
+  },
+  "discretionary access control policy": {
+    "organization-defined discretionary access control policy": {
+      "prm_ids": [
+        "ac-3.4_prm_1",
+        "ac-3.15_prm_2"
+      ]
+    },
+    "discretionary access control policy": {
+      "odp_ids": [
+        "ac-03.04_odp.01",
+        "ac-03.04_odp.02",
+        "ac-03.15_odp.03",
+        "ac-03.15_odp.04"
+      ]
+    }
+  },
+  "roles and users authorized to assume such roles": {
+    "organization-defined roles and users authorized to assume such roles": {
+      "prm_ids": [
+        "ac-3.7_prm_1"
+      ]
+    }
+  },
+  "roles": {
+    "roles": {
+      "odp_ids": [
+        "ac-03.07_odp.01",
+        "ac-03.10_odp.02",
+        "pm-23_odp.01"
+      ]
+    }
+  },
+  "users authorized to assume such roles": {
+    "users authorized to assume such roles": {
+      "odp_ids": [
+        "ac-03.07_odp.02"
+      ]
+    }
+  },
+  "rules": {
+    "rules": {
+      "odp_ids": [
+        "ac-03.08_odp"
+      ]
+    }
+  },
+  "system or system component": {
+    "system or system component": {
+      "odp_ids": [
+        "ac-03.09_odp.01",
+        "cp-04.05_odp.02",
+        "sr-03_odp.01"
+      ]
+    }
+  },
+  "controls": {
+    "controls": {
+      "odp_ids": [
+        "ac-03.09_odp.02",
+        "ac-03.09_odp.03",
+        "ac-24.01_odp.02",
+        "cm-02.07_odp.03",
+        "cm-03.06_odp",
+        "ia-05.18_odp.02",
+        "ir-09.04_odp",
+        "mp-05_odp.02",
+        "mp-05_odp.03",
+        "mp-07_odp.04",
+        "pe-17_odp.02",
+        "pl-08.01_odp.01",
+        "pl-08.02_odp.01",
+        "sa-09_odp.01",
+        "sc-06_odp.03",
+        "sc-37.01_odp.01",
+        "si-07.05_odp.02",
+        "si-07.17_odp",
+        "si-16_odp",
+        "sr-03.02_odp",
+        "sr-04.03_odp.01",
+        "sr-04.03_odp.02",
+        "sr-04.04_odp.01",
+        "sr-05.01_odp.01"
+      ]
+    },
+    "organization-defined controls": {
+      "prm_ids": [
+        "mp-5_prm_2",
+        "sr-4.3_prm_1"
+      ]
+    }
+  },
+  "information types": {
+    "information types": {
+      "odp_ids": [
+        "ac-03.11_odp",
+        "ps-03.04_odp.01"
+      ]
+    }
+  },
+  "system applications and functions": {
+    "system applications and functions": {
+      "odp_ids": [
+        "ac-03.12_odp"
+      ]
+    }
+  },
+  "attributes": {
+    "attributes": {
+      "odp_ids": [
+        "ac-03.13_odp"
+      ]
+    }
+  },
+  "mechanisms": {
+    "mechanisms": {
+      "odp_ids": [
+        "ac-03.14_odp.01",
+        "ac-17.10_odp.01",
+        "cp-04.05_odp.01",
+        "ia-13_odp.02",
+        "pt-03_odp.03",
+        "pt-04.01_odp",
+        "si-07.10_odp.01"
+      ]
+    }
+  },
+  "elements": {
+    "elements": {
+      "odp_ids": [
+        "ac-03.14_odp.02",
+        "au-03.03_odp",
+        "pe-08.03_odp",
+        "si-05_odp.04",
+        "si-19_odp.01"
+      ]
+    }
+  },
+  "information flow control policies": {
+    "information flow control policies": {
+      "odp_ids": [
+        "ac-04_odp",
+        "ac-04.01_odp.09",
+        "ac-04.02_odp",
+        "ac-04.03_odp"
+      ]
+    }
+  },
+  "security and privacy attributes": {
+    "security attributes": {
+      "odp_ids": [
+        "ac-04.01_odp.01",
+        "ac-16_odp.07",
+        "ac-16.03_odp.01",
+        "ac-16.04_odp.01",
+        "ac-16.04_odp.02",
+        "ac-16.06_odp.01",
+        "ac-16.06_odp.02",
+        "ac-24.02_odp.01",
+        "sc-16_odp.01"
+      ]
+    },
+    "privacy attributes": {
+      "odp_ids": [
+        "ac-04.01_odp.02",
+        "ac-16_odp.08",
+        "ac-16.03_odp.02",
+        "ac-16.04_odp.03",
+        "ac-16.04_odp.04",
+        "ac-16.06_odp.03",
+        "ac-16.06_odp.04",
+        "ac-24.02_odp.02",
+        "sc-16_odp.02"
+      ]
+    }
+  },
+  "information, source, and destination objects": {
+    "organization-defined information, source, and destination objects": {
+      "prm_ids": [
+        "ac-4.1_prm_2"
+      ]
+    }
+  },
+  "information objects": {
+    "information objects": {
+      "odp_ids": [
+        "ac-04.01_odp.03",
+        "ac-04.01_odp.04"
+      ]
+    }
+  },
+  "source objects": {
+    "source objects": {
+      "odp_ids": [
+        "ac-04.01_odp.05",
+        "ac-04.01_odp.06"
+      ]
+    }
+  },
+  "destination objects": {
+    "destination objects": {
+      "odp_ids": [
+        "ac-04.01_odp.07",
+        "ac-04.01_odp.08"
+      ]
+    }
+  },
+  "information flow control mechanisms": {
+    "information flow control mechanisms": {
+      "odp_ids": [
+        "ac-04.04_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['decrypting the information', 'blocking the flow of the encrypted information', 'terminating communications sessions attempting to pass encrypted information', '{{ insert: param, ac-04.04_odp.03 }} ']}": {
+    "{\"choice\": [\"decrypting the information\", \"blocking the flow of the encrypted information\", \"terminating communications sessions attempting to pass encrypted information\", \"{{ insert: param, ac-04.04_odp.03 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "ac-04.04_odp.02"
+      ]
+    }
+  },
+  "procedure or method": {
+    "organization-defined procedure or method": {
+      "odp_ids": [
+        "ac-04.04_odp.03"
+      ]
+    }
+  },
+  "limitations": {
+    "limitations": {
+      "odp_ids": [
+        "ac-04.05_odp"
+      ]
+    }
+  },
+  "metadata": {
+    "metadata": {
+      "odp_ids": [
+        "ac-04.06_odp"
+      ]
+    }
+  },
+  "security or privacy policy filters": {
+    "organization-defined security or privacy policy filters": {
+      "prm_ids": [
+        "ac-4.8_prm_1",
+        "ac-4.10_prm_1",
+        "ac-4.11_prm_1",
+        "ac-4.14_prm_1",
+        "ac-4.19_prm_1"
+      ]
+    }
+  },
+  "information flows": {
+    "organization-defined information flows": {
+      "prm_ids": [
+        "ac-4.8_prm_2"
+      ]
+    },
+    "information flows": {
+      "odp_ids": [
+        "ac-04.08_odp.03",
+        "ac-04.08_odp.04",
+        "ac-04.09_odp.01"
+      ]
+    }
+  },
+  "security or privacy policy": {
+    "organization-defined security or privacy policy": {
+      "prm_ids": [
+        "ac-4.8_prm_4",
+        "ac-4.15_prm_2"
+      ]
+    }
+  },
+  "security and privacy policy filter": {
+    "security policy filter": {
+      "odp_ids": [
+        "ac-04.08_odp.01"
+      ]
+    },
+    "privacy policy filter": {
+      "odp_ids": [
+        "ac-04.08_odp.02"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['block', 'strip', 'modify', 'quarantine']}": {
+    "{\"choice\": [\"block\", \"strip\", \"modify\", \"quarantine\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "ac-04.08_odp.05"
+      ]
+    }
+  },
+  "security and privacy policy": {
+    "security policy": {
+      "odp_ids": [
+        "ac-04.08_odp.06",
+        "ac-04.15_odp.02"
+      ]
+    },
+    "privacy policy": {
+      "odp_ids": [
+        "ac-04.08_odp.07",
+        "ac-04.15_odp.03"
+      ]
+    }
+  },
+  "security and privacy filters": {
+    "security filters": {
+      "odp_ids": [
+        "ac-04.10_odp.01"
+      ]
+    },
+    "privacy filters": {
+      "odp_ids": [
+        "ac-04.10_odp.02"
+      ]
+    }
+  },
+  "security and privacy policy filters": {
+    "security policy filters": {
+      "odp_ids": [
+        "ac-04.11_odp.01",
+        "ac-04.14_odp.01",
+        "ac-04.19_odp.01"
+      ]
+    },
+    "privacy policy filters": {
+      "odp_ids": [
+        "ac-04.11_odp.02",
+        "ac-04.14_odp.02",
+        "ac-04.19_odp.02"
+      ]
+    }
+  },
+  "data type identifiers": {
+    "data type identifiers": {
+      "odp_ids": [
+        "ac-04.12_odp"
+      ]
+    }
+  },
+  "policy-relevant subcomponents": {
+    "policy-relevant subcomponents": {
+      "odp_ids": [
+        "ac-04.13_odp"
+      ]
+    }
+  },
+  "unsanctioned information": {
+    "unsanctioned information": {
+      "odp_ids": [
+        "ac-04.15_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['organization, system, application, service, individual']}": {
+    "{\"choice\": [\"organization, system, application, service, individual\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "ac-04.17_odp"
+      ]
+    }
+  },
+  "solutions in approved configurations": {
+    "solutions in approved configurations": {
+      "odp_ids": [
+        "ac-04.20_odp.01"
+      ]
+    }
+  },
+  "information": {
+    "information": {
+      "odp_ids": [
+        "ac-04.20_odp.02",
+        "cm-08_odp.01",
+        "cm-12_odp",
+        "ma-02_odp.02",
+        "ma-02_odp.03",
+        "pt-05_odp.02",
+        "sa-11.02_odp.01",
+        "sc-28.01_odp.01",
+        "sc-28.02_odp",
+        "si-07_odp.03",
+        "si-07.01_odp.09",
+        "si-14.02_odp.02",
+        "si-14.02_odp.04",
+        "si-21_odp.01",
+        "si-23_odp.02"
+      ]
+    }
+  },
+  "mechanisms and/or techniques": {
+    "organization-defined mechanisms and/or techniques": {
+      "prm_ids": [
+        "ac-4.21_prm_1"
+      ]
+    },
+    "mechanisms and/or techniques": {
+      "odp_ids": [
+        "ac-04.21_odp.01",
+        "ac-04.21_odp.02"
+      ]
+    }
+  },
+  "required separations": {
+    "required separations": {
+      "odp_ids": [
+        "ac-04.21_odp.03"
+      ]
+    }
+  },
+  "modification action": {
+    "modification action": {
+      "odp_ids": [
+        "ac-04.23_odp"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['delivery of malicious content, command and control of malicious code, malicious code augmentation, and steganography-encoded data', 'spillage of sensitive information']}": {
+    "{\"choice\": [\"delivery of malicious content, command and control of malicious code, malicious code augmentation, and steganography-encoded data\", \"spillage of sensitive information\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "ac-04.25_odp.01"
+      ]
+    }
+  },
+  "policy": {
+    "policy": {
+      "odp_ids": [
+        "ac-04.25_odp.02",
+        "ac-04.29_odp",
+        "ia-08.05_odp",
+        "ia-13_odp.01"
+      ]
+    }
+  },
+  "duties of individuals": {
+    "duties of individuals": {
+      "odp_ids": [
+        "ac-05_odp"
+      ]
+    }
+  },
+  "individuals and roles": {
+    "individuals and roles": {
+      "odp_ids": [
+        "ac-06.01_odp.01"
+      ]
+    }
+  },
+  "privileged commands": {
+    "privileged commands": {
+      "odp_ids": [
+        "ac-06.03_odp.01"
+      ]
+    }
+  },
+  "compelling operational needs": {
+    "compelling operational needs": {
+      "odp_ids": [
+        "ac-06.03_odp.02"
+      ]
+    }
+  },
+  "roles and classes": {
+    "roles and classes": {
+      "odp_ids": [
+        "ac-06.07_odp.02"
+      ]
+    }
+  },
+  "software": {
+    "software": {
+      "odp_ids": [
+        "ac-06.08_odp",
+        "cm-07_odp.05",
+        "cm-07.01_odp.05",
+        "si-07_odp.01",
+        "si-07.01_odp.01"
+      ]
+    }
+  },
+  "number": {
+    "number": {
+      "odp_ids": [
+        "ac-07_odp.01",
+        "ac-07.02_odp.03",
+        "ac-07.03_odp",
+        "ac-07.04_odp.02",
+        "ac-10_odp.02",
+        "cm-02.03_odp"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['lock the account or node for {{ insert: param, ac-07_odp.04 }} ', 'lock the account or node until released by an administrator', 'delay next logon prompt per {{ insert: param, ac-07_odp.05 }} ', 'notify system administrator', 'take other {{ insert: param, ac-07_odp.06 }} ']}": {
+    "{\"choice\": [\"lock the account or node for {{ insert: param, ac-07_odp.04 }} \", \"lock the account or node until released by an administrator\", \"delay next logon prompt per {{ insert: param, ac-07_odp.05 }} \", \"notify system administrator\", \"take other {{ insert: param, ac-07_odp.06 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "ac-07_odp.03"
+      ]
+    }
+  },
+  "delay algorithm": {
+    "delay algorithm": {
+      "odp_ids": [
+        "ac-07_odp.05"
+      ]
+    }
+  },
+  "action": {
+    "action": {
+      "odp_ids": [
+        "ac-07_odp.06",
+        "si-03_odp.05",
+        "si-13.04_odp.04"
+      ]
+    }
+  },
+  "mobile devices": {
+    "mobile devices": {
+      "odp_ids": [
+        "ac-07.02_odp.01",
+        "ac-19.05_odp.02"
+      ]
+    }
+  },
+  "purging or wiping requirements and techniques": {
+    "purging or wiping requirements and techniques": {
+      "odp_ids": [
+        "ac-07.02_odp.02"
+      ]
+    }
+  },
+  "authentication factors": {
+    "authentication factors": {
+      "odp_ids": [
+        "ac-07.04_odp.01"
+      ]
+    }
+  },
+  "system use notification": {
+    "system use notification": {
+      "odp_ids": [
+        "ac-08_odp.01"
+      ]
+    }
+  },
+  "{'choice': ['successful logons', 'unsuccessful logon attempts', 'both']}": {
+    "{\"choice\": [\"successful logons\", \"unsuccessful logon attempts\", \"both\"]}": {
+      "odp_ids": [
+        "ac-09.02_odp.01"
+      ]
+    }
+  },
+  "additional information": {
+    "additional information": {
+      "odp_ids": [
+        "ac-09.04_odp",
+        "au-03.01_odp"
+      ]
+    }
+  },
+  "account and/or account types": {
+    "account and/or account types": {
+      "odp_ids": [
+        "ac-10_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['initiating a device lock after {{ insert: param, ac-11_odp.02 }} of inactivity', 'requiring the user to initiate a device lock before leaving the system unattended']}": {
+    "{\"choice\": [\"initiating a device lock after {{ insert: param, ac-11_odp.02 }} of inactivity\", \"requiring the user to initiate a device lock before leaving the system unattended\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "ac-11_odp.01"
+      ]
+    }
+  },
+  "conditions or trigger events": {
+    "conditions or trigger events": {
+      "odp_ids": [
+        "ac-12_odp"
+      ]
+    }
+  },
+  "information resources": {
+    "information resources": {
+      "odp_ids": [
+        "ac-12.01_odp"
+      ]
+    }
+  },
+  "time": {
+    "time": {
+      "odp_ids": [
+        "ac-12.03_odp"
+      ]
+    }
+  },
+  "user actions": {
+    "user actions": {
+      "odp_ids": [
+        "ac-14_odp"
+      ]
+    }
+  },
+  "types of security and privacy attributes": {
+    "types of security attributes": {
+      "odp_ids": [
+        "ac-16_odp.01"
+      ]
+    },
+    "types of privacy attributes": {
+      "odp_ids": [
+        "ac-16_odp.02"
+      ]
+    }
+  },
+  "security and privacy attribute values": {
+    "security attribute values": {
+      "odp_ids": [
+        "ac-16_odp.03"
+      ]
+    },
+    "privacy attribute values": {
+      "odp_ids": [
+        "ac-16_odp.04"
+      ]
+    }
+  },
+  "systems": {
+    "organization-defined systems": {
+      "prm_ids": [
+        "ac-16_prm_3"
+      ]
+    },
+    "systems": {
+      "odp_ids": [
+        "ac-16_odp.05",
+        "ac-16_odp.06",
+        "ac-24.01_odp.03",
+        "sc-07.05_odp.02",
+        "sc-30_odp.02"
+      ]
+    }
+  },
+  "attribute values or ranges": {
+    "attribute values or ranges": {
+      "odp_ids": [
+        "ac-16_odp.09"
+      ]
+    }
+  },
+  "subjects and objects": {
+    "organization-defined subjects and objects": {
+      "prm_ids": [
+        "ac-16.1_prm_1",
+        "ac-16.3_prm_2",
+        "ac-16.4_prm_2",
+        "ac-16.6_prm_2"
+      ]
+    }
+  },
+  "security and privacy policies": {
+    "security policies": {
+      "odp_ids": [
+        "ac-16.01_odp.05",
+        "ac-16.06_odp.09",
+        "ac-19.04_odp.02"
+      ]
+    },
+    "privacy policies": {
+      "odp_ids": [
+        "ac-16.01_odp.06",
+        "ac-16.06_odp.10"
+      ]
+    }
+  },
+  "objects": {
+    "objects": {
+      "odp_ids": [
+        "ac-16.01_odp.02",
+        "ac-16.01_odp.04",
+        "ac-16.03_odp.04",
+        "ac-16.03_odp.06",
+        "ac-16.04_odp.06",
+        "ac-16.04_odp.08",
+        "ac-16.06_odp.06",
+        "ac-16.06_odp.08"
+      ]
+    }
+  },
+  "instructions": {
+    "instructions": {
+      "odp_ids": [
+        "ac-16.05_odp.01"
+      ]
+    }
+  },
+  "naming conventions": {
+    "naming conventions": {
+      "odp_ids": [
+        "ac-16.05_odp.02"
+      ]
+    }
+  },
+  "techniques and technologies": {
+    "organization-defined techniques and technologies": {
+      "prm_ids": [
+        "ac-16.8_prm_1"
+      ]
+    },
+    "techniques and technologies": {
+      "odp_ids": [
+        "ac-16.08_odp.01",
+        "ac-16.08_odp.02"
+      ]
+    }
+  },
+  "techniques or procedures": {
+    "organization-defined techniques or procedures": {
+      "prm_ids": [
+        "ac-16.9_prm_1"
+      ]
+    },
+    "techniques or procedures": {
+      "odp_ids": [
+        "ac-16.09_odp.01",
+        "ac-16.09_odp.02"
+      ]
+    }
+  },
+  "needs": {
+    "organization-defined needs": {
+      "prm_ids": [
+        "ac-17.4_prm_1"
+      ]
+    }
+  },
+  "needs requiring remote access": {
+    "needs requiring remote access": {
+      "odp_ids": [
+        "ac-17.04_odp.01",
+        "ac-17.04_odp.02"
+      ]
+    }
+  },
+  "remote commands": {
+    "remote commands": {
+      "odp_ids": [
+        "ac-17.10_odp.02"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['users', 'devices']}": {
+    "{\"choice\": [\"users\", \"devices\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "ac-18.01_odp"
+      ]
+    }
+  },
+  "{'choice': ['full-device encryption', 'container-based encryption']}": {
+    "{\"choice\": [\"full-device encryption\", \"container-based encryption\"]}": {
+      "odp_ids": [
+        "ac-19.05_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['establish {{ insert: param, ac-20_odp.02 }} ', 'identify {{ insert: param, ac-20_odp.03 }} ']}": {
+    "{\"choice\": [\"establish {{ insert: param, ac-20_odp.02 }} \", \"identify {{ insert: param, ac-20_odp.03 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "ac-20_odp.01"
+      ]
+    }
+  },
+  "terms and conditions": {
+    "terms and conditions": {
+      "odp_ids": [
+        "ac-20_odp.02"
+      ]
+    }
+  },
+  "controls asserted": {
+    "controls asserted": {
+      "odp_ids": [
+        "ac-20_odp.03"
+      ]
+    }
+  },
+  "prohibited types of external systems": {
+    "prohibited types of external systems": {
+      "odp_ids": [
+        "ac-20_odp.04"
+      ]
+    }
+  },
+  "restrictions": {
+    "restrictions": {
+      "odp_ids": [
+        "ac-20.02_odp",
+        "ac-20.03_odp",
+        "cm-10.01_odp",
+        "cp-12_odp.01"
+      ]
+    }
+  },
+  "network-accessible storage devices": {
+    "network-accessible storage devices": {
+      "odp_ids": [
+        "ac-20.04_odp"
+      ]
+    }
+  },
+  "information-sharing circumstances": {
+    "information-sharing circumstances": {
+      "odp_ids": [
+        "ac-21_odp.01"
+      ]
+    }
+  },
+  "information-sharing restrictions": {
+    "information-sharing restrictions": {
+      "odp_ids": [
+        "ac-21.02_odp"
+      ]
+    }
+  },
+  "techniques": {
+    "techniques": {
+      "odp_ids": [
+        "ac-23_odp.01",
+        "sc-30.02_odp",
+        "sc-30.05_odp.01",
+        "si-12.02_odp.01",
+        "si-12.02_odp.02",
+        "si-12.02_odp.03",
+        "si-12.03_odp.01",
+        "si-12.03_odp.02",
+        "si-12.03_odp.03"
+      ]
+    },
+    "organization-defined techniques": {
+      "prm_ids": [
+        "si-12.2_prm_1",
+        "si-12.3_prm_1"
+      ]
+    }
+  },
+  "data storage objects": {
+    "data storage objects": {
+      "odp_ids": [
+        "ac-23_odp.02"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['establish procedures', 'implement mechanisms']}": {
+    "{\"choice\": [\"establish procedures\", \"implement mechanisms\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "ac-24_odp.01"
+      ]
+    }
+  },
+  "access control decisions": {
+    "access control decisions": {
+      "odp_ids": [
+        "ac-24_odp.02"
+      ]
+    }
+  },
+  "access authorization information": {
+    "access authorization information": {
+      "odp_ids": [
+        "ac-24.01_odp.01"
+      ]
+    }
+  },
+  "security or privacy attributes": {
+    "organization-defined security or privacy attributes": {
+      "prm_ids": [
+        "ac-24.2_prm_1"
+      ]
+    }
+  },
+  "access control policies": {
+    "access control policies": {
+      "odp_ids": [
+        "ac-25_odp"
+      ]
+    }
+  },
+  "awareness techniques": {
+    "awareness techniques": {
+      "odp_ids": [
+        "at-02_odp.05"
+      ]
+    }
+  },
+  "indicators of malicious code": {
+    "indicators of malicious code": {
+      "odp_ids": [
+        "at-02.04_odp"
+      ]
+    }
+  },
+  "roles and responsibilities": {
+    "organization-defined roles and responsibilities": {
+      "prm_ids": [
+        "at-3_prm_1"
+      ]
+    },
+    "roles and responsibilities": {
+      "odp_ids": [
+        "at-03_odp.01",
+        "at-03_odp.02"
+      ]
+    }
+  },
+  "personnel": {
+    "personnel": {
+      "odp_ids": [
+        "at-06_odp.02",
+        "cm-03.01_odp.04",
+        "pe-08_odp.03",
+        "pm-28_odp.01",
+        "sa-10_odp.03"
+      ]
+    }
+  },
+  "event types (subset of the event types defined in [au-2a.](#au-2_smt.a)) along with the frequency of (or situation requiring) logging for each identified event type": {
+    "organization-defined event types (subset of the event types defined in [AU-2a.](#au-2_smt.a)) along with the frequency of (or situation requiring) logging for each identified event type": {
+      "prm_ids": [
+        "au-2_prm_2"
+      ]
+    }
+  },
+  "event types": {
+    "event types": {
+      "odp_ids": [
+        "au-02_odp.01"
+      ]
+    }
+  },
+  "event types (subset of au-02_odp[01])": {
+    "event types (subset of AU-02_ODP[01])": {
+      "odp_ids": [
+        "au-02_odp.02"
+      ]
+    }
+  },
+  "frequency or situation": {
+    "frequency or situation": {
+      "odp_ids": [
+        "au-02_odp.03"
+      ]
+    }
+  },
+  "audit log retention requirements": {
+    "audit log retention requirements": {
+      "odp_ids": [
+        "au-04_odp"
+      ]
+    }
+  },
+  "additional actions": {
+    "additional actions": {
+      "odp_ids": [
+        "au-05_odp.03",
+        "au-13_odp.04"
+      ]
+    }
+  },
+  "personnel, roles, and/or locations": {
+    "personnel, roles, and/or locations": {
+      "odp_ids": [
+        "au-05.01_odp.01",
+        "au-05.02_odp.02"
+      ]
+    }
+  },
+  "percentage": {
+    "percentage": {
+      "odp_ids": [
+        "au-05.01_odp.03",
+        "si-13.03_odp"
+      ]
+    }
+  },
+  "real-time period": {
+    "real-time period": {
+      "odp_ids": [
+        "au-05.02_odp.01"
+      ]
+    }
+  },
+  "audit logging failure events requiring real-time alerts": {
+    "audit logging failure events requiring real-time alerts": {
+      "odp_ids": [
+        "au-05.02_odp.03"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['reject', 'delay']}": {
+    "{\"choice\": [\"reject\", \"delay\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "au-05.03_odp"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['full system shutdown', 'partial system shutdown', 'degraded operational mode with limited mission or business functionality available']}": {
+    "{\"choice\": [\"full system shutdown\", \"partial system shutdown\", \"degraded operational mode with limited mission or business functionality available\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "au-05.04_odp.01"
+      ]
+    }
+  },
+  "audit logging failures": {
+    "audit logging failures": {
+      "odp_ids": [
+        "au-05.04_odp.02"
+      ]
+    }
+  },
+  "alternate audit logging functionality": {
+    "alternate audit logging functionality": {
+      "odp_ids": [
+        "au-05.05_odp"
+      ]
+    }
+  },
+  "inappropriate or unusual activity": {
+    "inappropriate or unusual activity": {
+      "odp_ids": [
+        "au-06_odp.02"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['vulnerability scanning information', 'performance data', 'system monitoring information', '{{ insert: param, au-06.05_odp.02 }} ']}": {
+    "{\"choice\": [\"vulnerability scanning information\", \"performance data\", \"system monitoring information\", \"{{ insert: param, au-06.05_odp.02 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "au-06.05_odp.01"
+      ]
+    }
+  },
+  "data/information collected from other sources": {
+    "data/information collected from other sources": {
+      "odp_ids": [
+        "au-06.05_odp.02"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['system process', 'role', 'user']}": {
+    "{\"choice\": [\"system process\", \"role\", \"user\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "au-06.07_odp"
+      ]
+    }
+  },
+  "fields within audit records": {
+    "fields within audit records": {
+      "odp_ids": [
+        "au-07.01_odp"
+      ]
+    }
+  },
+  "granularity of time measurement": {
+    "granularity of time measurement": {
+      "odp_ids": [
+        "au-08_odp"
+      ]
+    }
+  },
+  "subset of privileged users or roles": {
+    "subset of privileged users or roles": {
+      "odp_ids": [
+        "au-09.04_odp",
+        "au-09.06_odp"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['movement', 'deletion']}": {
+    "{\"choice\": [\"movement\", \"deletion\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "au-09.05_odp.01"
+      ]
+    }
+  },
+  "audit information": {
+    "audit information": {
+      "odp_ids": [
+        "au-09.05_odp.02",
+        "au-16_odp.02"
+      ]
+    }
+  },
+  "actions": {
+    "actions": {
+      "odp_ids": [
+        "au-10_odp",
+        "au-10.02_odp.02",
+        "au-10.04_odp.02",
+        "ca-07.05_odp.01",
+        "ca-07.05_odp.02",
+        "cm-06.02_odp.01",
+        "ir-04.03_odp.02",
+        "ir-09_odp.03",
+        "sa-05_odp.01",
+        "sa-09.04_odp.02",
+        "sc-18.04_odp.02",
+        "sc-36.01_odp.02",
+        "si-07_odp.04",
+        "si-07_odp.05",
+        "si-07_odp.06"
+      ]
+    },
+    "organization-defined actions": {
+      "prm_ids": [
+        "ca-7.5_prm_1",
+        "si-7_prm_2"
+      ]
+    }
+  },
+  "strength of binding": {
+    "strength of binding": {
+      "odp_ids": [
+        "au-10.01_odp"
+      ]
+    }
+  },
+  "measures": {
+    "measures": {
+      "odp_ids": [
+        "au-11.01_odp",
+        "au-16.03_odp",
+        "ia-08.06_odp",
+        "sc-42.02_odp",
+        "sc-42.04_odp.01"
+      ]
+    }
+  },
+  "system components": {
+    "system components": {
+      "odp_ids": [
+        "au-12_odp.01",
+        "au-12.01_odp.01",
+        "au-12.03_odp.02",
+        "ca-09_odp.01",
+        "cm-05.04_odp.01",
+        "cm-06_odp.02",
+        "cm-06.01_odp.01",
+        "cm-12.01_odp.02",
+        "cp-09_odp.01",
+        "ir-04.02_odp.02",
+        "ma-06_odp.01",
+        "ma-06.01_odp.01",
+        "ma-06.02_odp.01",
+        "pe-03.04_odp",
+        "ra-05.05_odp.01",
+        "sc-07.12_odp.02",
+        "sc-07.20_odp",
+        "sc-07.21_odp.01",
+        "sc-25_odp",
+        "sc-29_odp",
+        "sc-30.04_odp",
+        "sc-30.05_odp.02",
+        "sc-32_odp.01",
+        "sc-34_odp.01",
+        "sc-34.01_odp",
+        "si-02.05_odp.02",
+        "si-04.23_odp.02",
+        "si-07.09_odp",
+        "si-07.10_odp.02",
+        "si-13_odp.01",
+        "sr-03.01_odp.01",
+        "sr-11.02_odp"
+      ]
+    }
+  },
+  "level of tolerance": {
+    "level of tolerance": {
+      "odp_ids": [
+        "au-12.01_odp.02"
+      ]
+    }
+  },
+  "individuals or roles": {
+    "individuals or roles": {
+      "odp_ids": [
+        "au-12.03_odp.01",
+        "ca-02_odp.02"
+      ]
+    }
+  },
+  "selectable event criteria": {
+    "selectable event criteria": {
+      "odp_ids": [
+        "au-12.03_odp.03"
+      ]
+    }
+  },
+  "time thresholds": {
+    "time thresholds": {
+      "odp_ids": [
+        "au-12.03_odp.04"
+      ]
+    }
+  },
+  "open-source information and/or information sites": {
+    "open-source information and/or information sites": {
+      "odp_ids": [
+        "au-13_odp.01"
+      ]
+    }
+  },
+  "users or roles": {
+    "users or roles": {
+      "odp_ids": [
+        "au-14_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['record', 'view', 'hear', 'log']}": {
+    "{\"choice\": [\"record\", \"view\", \"hear\", \"log\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "au-14_odp.02"
+      ]
+    }
+  },
+  "circumstances": {
+    "circumstances": {
+      "odp_ids": [
+        "au-14_odp.03",
+        "cm-02_odp.02",
+        "cm-03.07_odp.02",
+        "cm-03.08_odp",
+        "mp-06.03_odp",
+        "pe-03_odp.06",
+        "si-23_odp.01"
+      ]
+    }
+  },
+  "methods": {
+    "methods": {
+      "odp_ids": [
+        "au-16_odp.01",
+        "cm-11_odp.02"
+      ]
+    }
+  },
+  "organizations": {
+    "organizations": {
+      "odp_ids": [
+        "au-16.02_odp.01"
+      ]
+    }
+  },
+  "cross-organizational sharing agreements": {
+    "cross-organizational sharing agreements": {
+      "odp_ids": [
+        "au-16.02_odp.02"
+      ]
+    }
+  },
+  "assessment frequency": {
+    "assessment frequency": {
+      "odp_ids": [
+        "ca-02_odp.01"
+      ]
+    }
+  },
+  "specialized assessment frequency": {
+    "specialized assessment frequency": {
+      "odp_ids": [
+        "ca-02.02_odp.01"
+      ]
+    }
+  },
+  "{'choice': ['announced', 'unannounced']}": {
+    "{\"choice\": [\"announced\", \"unannounced\"]}": {
+      "odp_ids": [
+        "ca-02.02_odp.02"
+      ]
+    }
+  },
+  "other forms of assessment": {
+    "other forms of assessment": {
+      "odp_ids": [
+        "ca-02.02_odp.04"
+      ]
+    }
+  },
+  "external organization(s)": {
+    "external organization(s)": {
+      "odp_ids": [
+        "ca-02.03_odp.01"
+      ]
+    }
+  },
+  "system": {
+    "system": {
+      "odp_ids": [
+        "ca-02.03_odp.02",
+        "ra-05.08_odp.01",
+        "sc-07.28_odp"
+      ]
+    }
+  },
+  "requirements": {
+    "requirements": {
+      "odp_ids": [
+        "ca-02.03_odp.03",
+        "pt-03_odp.04",
+        "sa-09.05_odp.03",
+        "sc-12_odp"
+      ]
+    }
+  },
+  "type of agreement": {
+    "type of agreement": {
+      "odp_ids": [
+        "ca-03_odp.02"
+      ]
+    }
+  },
+  "system-level metrics": {
+    "system-level metrics": {
+      "odp_ids": [
+        "ca-07_odp.01"
+      ]
+    }
+  },
+  "frequencies": {
+    "frequencies": {
+      "odp_ids": [
+        "ca-07_odp.02",
+        "ca-07_odp.03",
+        "si-21_odp.02"
+      ]
+    }
+  },
+  "system(s) or system components": {
+    "system(s) or system components": {
+      "odp_ids": [
+        "ca-08_odp.02"
+      ]
+    }
+  },
+  "red team exercises": {
+    "red team exercises": {
+      "odp_ids": [
+        "ca-08.02_odp"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['announced', 'unannounced']}": {
+    "{\"choice\": [\"announced\", \"unannounced\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "ca-08.03_odp.02"
+      ]
+    }
+  },
+  "systems or system components": {
+    "systems or system components": {
+      "odp_ids": [
+        "cm-02.07_odp.01",
+        "ma-07_odp.01",
+        "mp-06.08_odp.01",
+        "mp-07_odp.03",
+        "pm-32_odp",
+        "ra-03.04_odp.02",
+        "sa-08.02_odp",
+        "sa-08.03_odp.01",
+        "sa-08.03_odp.02",
+        "sa-08.04_odp",
+        "sa-08.05_odp",
+        "sa-08.06_odp",
+        "sa-08.07_odp",
+        "sa-08.08_odp",
+        "sa-08.09_odp",
+        "sa-08.10_odp",
+        "sa-08.11_odp",
+        "sa-08.12_odp",
+        "sa-08.13_odp",
+        "sa-08.14_odp",
+        "sa-08.15_odp",
+        "sa-08.16_odp",
+        "sa-08.17_odp",
+        "sa-08.18_odp",
+        "sa-08.19_odp",
+        "sa-08.20_odp",
+        "sa-08.21_odp",
+        "sa-08.22_odp.01",
+        "sa-08.22_odp.02",
+        "sa-08.23_odp",
+        "sa-08.24_odp.01",
+        "sa-08.24_odp.02",
+        "sa-08.25_odp",
+        "sa-08.26_odp",
+        "sa-08.27_odp",
+        "sa-08.28_odp",
+        "sa-08.29_odp",
+        "sa-08.30_odp",
+        "sa-08.31_odp",
+        "sa-08.32_odp",
+        "sa-23_odp.02",
+        "sc-15.03_odp.01",
+        "sc-41_odp.03",
+        "si-20_odp",
+        "si-22_odp.03",
+        "si-23_odp.03",
+        "sr-10_odp.01"
+      ]
+    },
+    "organization-defined systems or system components": {
+      "prm_ids": [
+        "sa-8.3_prm_1",
+        "sa-8.22_prm_1",
+        "sa-8.24_prm_1"
+      ]
+    }
+  },
+  "configurations": {
+    "configurations": {
+      "odp_ids": [
+        "cm-02.07_odp.02"
+      ]
+    }
+  },
+  "configuration change control element": {
+    "configuration change control element": {
+      "odp_ids": [
+        "cm-03_odp.02",
+        "cm-03.04_odp.03"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['{{ insert: param, cm-03_odp.04 }} ', 'when {{ insert: param, cm-03_odp.05 }} ']}": {
+    "{\"choice\": [\"{{ insert: param, cm-03_odp.04 }} \", \"when {{ insert: param, cm-03_odp.05 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "cm-03_odp.03"
+      ]
+    }
+  },
+  "configuration change conditions": {
+    "configuration change conditions": {
+      "odp_ids": [
+        "cm-03_odp.05"
+      ]
+    }
+  },
+  "approval authorities": {
+    "approval authorities": {
+      "odp_ids": [
+        "cm-03.01_odp.02"
+      ]
+    }
+  },
+  "security and privacy representatives": {
+    "security representatives": {
+      "odp_ids": [
+        "cm-03.04_odp.01",
+        "sa-10.07_odp.01"
+      ]
+    },
+    "privacy representatives": {
+      "odp_ids": [
+        "cm-03.04_odp.02",
+        "sa-10.07_odp.02"
+      ]
+    }
+  },
+  "system components and system-level information": {
+    "organization-defined system components and system-level information": {
+      "prm_ids": [
+        "cm-5.4_prm_1"
+      ]
+    }
+  },
+  "system-level information": {
+    "system-level information": {
+      "odp_ids": [
+        "cm-05.04_odp.02"
+      ]
+    }
+  },
+  "common secure configurations": {
+    "common secure configurations": {
+      "odp_ids": [
+        "cm-06_odp.01"
+      ]
+    }
+  },
+  "operational requirements": {
+    "operational requirements": {
+      "odp_ids": [
+        "cm-06_odp.03"
+      ]
+    }
+  },
+  "configuration settings": {
+    "configuration settings": {
+      "odp_ids": [
+        "cm-06.02_odp.02"
+      ]
+    }
+  },
+  "prohibited or restricted functions, system ports, protocols, software, and/or services": {
+    "organization-defined prohibited or restricted functions, system ports, protocols, software, and/or services": {
+      "prm_ids": [
+        "cm-7_prm_2"
+      ]
+    }
+  },
+  "mission-essential capabilities": {
+    "mission-essential capabilities": {
+      "odp_ids": [
+        "cm-07_odp.01"
+      ]
+    }
+  },
+  "functions": {
+    "functions": {
+      "odp_ids": [
+        "cm-07_odp.02",
+        "cm-07.01_odp.02"
+      ]
+    }
+  },
+  "ports": {
+    "ports": {
+      "odp_ids": [
+        "cm-07_odp.03",
+        "cm-07.01_odp.03"
+      ]
+    }
+  },
+  "protocols": {
+    "protocols": {
+      "odp_ids": [
+        "cm-07_odp.04",
+        "cm-07.01_odp.04"
+      ]
+    }
+  },
+  "services": {
+    "services": {
+      "odp_ids": [
+        "cm-07_odp.06",
+        "cm-07.01_odp.06",
+        "sr-03.01_odp.02"
+      ]
+    }
+  },
+  "functions, ports, protocols, software, and services within the system deemed to be unnecessary and/or nonsecure": {
+    "organization-defined functions, ports, protocols, software, and services within the system deemed to be unnecessary and/or nonsecure": {
+      "prm_ids": [
+        "cm-7.1_prm_2"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['{{ insert: param, cm-07.02_odp.02 }} ', 'rules authorizing the terms and conditions of software program usage']}": {
+    "{\"choice\": [\"{{ insert: param, cm-07.02_odp.02 }} \", \"rules authorizing the terms and conditions of software program usage\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "cm-07.02_odp.01"
+      ]
+    }
+  },
+  "policies, rules of behavior, and/or access agreements regarding software program usage and restrictions": {
+    "policies, rules of behavior, and/or access agreements regarding software program usage and restrictions": {
+      "odp_ids": [
+        "cm-07.02_odp.02"
+      ]
+    }
+  },
+  "registration requirements": {
+    "registration requirements": {
+      "odp_ids": [
+        "cm-07.03_odp"
+      ]
+    }
+  },
+  "software programs": {
+    "software programs": {
+      "odp_ids": [
+        "cm-07.04_odp.01",
+        "cm-07.05_odp.01"
+      ]
+    }
+  },
+  "user-installed software": {
+    "user-installed software": {
+      "odp_ids": [
+        "cm-07.06_odp",
+        "si-07.12_odp"
+      ]
+    }
+  },
+  "hardware components": {
+    "hardware components": {
+      "odp_ids": [
+        "cm-07.09_odp.01",
+        "pe-03.05_odp.03"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['disable network access by unauthorized components', 'isolate unauthorized components', 'notify {{ insert: param, cm-08.03_odp.06 }} ']}": {
+    "{\"choice\": [\"disable network access by unauthorized components\", \"isolate unauthorized components\", \"notify {{ insert: param, cm-08.03_odp.06 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "cm-08.03_odp.05"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['name', 'position', 'role']}": {
+    "{\"choice\": [\"name\", \"position\", \"role\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "cm-08.04_odp"
+      ]
+    }
+  },
+  "policies": {
+    "policies": {
+      "odp_ids": [
+        "cm-11_odp.01"
+      ]
+    }
+  },
+  "information by information type": {
+    "information by information type": {
+      "odp_ids": [
+        "cm-12.01_odp.01"
+      ]
+    }
+  },
+  "software and firmware components": {
+    "organization-defined software and firmware components": {
+      "prm_ids": [
+        "cm-14_prm_1"
+      ]
+    },
+    "software and firmware components": {
+      "odp_ids": [
+        "si-02.06_odp"
+      ]
+    }
+  },
+  "software components": {
+    "software components": {
+      "odp_ids": [
+        "cm-14_odp.01"
+      ]
+    }
+  },
+  "firmware components": {
+    "firmware components": {
+      "odp_ids": [
+        "cm-14_odp.02"
+      ]
+    }
+  },
+  "key contingency personnel (identified by name and/or by role) and organizational elements": {
+    "organization-defined key contingency personnel (identified by name and/or by role) and organizational elements": {
+      "prm_ids": [
+        "cp-2_prm_2",
+        "cp-2_prm_4"
+      ]
+    }
+  },
+  "key contingency personnel": {
+    "key contingency personnel": {
+      "odp_ids": [
+        "cp-02_odp.03",
+        "cp-02_odp.06"
+      ]
+    }
+  },
+  "organizational elements": {
+    "organizational elements": {
+      "odp_ids": [
+        "cp-02_odp.04",
+        "cp-02_odp.07",
+        "ir-08_odp.05",
+        "ir-08_odp.07"
+      ]
+    }
+  },
+  "{'choice': ['all', 'essential']}": {
+    "{\"choice\": [\"all\", \"essential\"]}": {
+      "odp_ids": [
+        "cp-02.03_odp.01",
+        "cp-02.05_odp",
+        "cp-02.06_odp",
+        "cp-02.08_odp"
+      ]
+    }
+  },
+  "tests": {
+    "organization-defined tests": {
+      "prm_ids": [
+        "cp-4_prm_2"
+      ]
+    },
+    "tests": {
+      "odp_ids": [
+        "cp-04_odp.02",
+        "cp-04_odp.03",
+        "ir-03_odp.02"
+      ]
+    }
+  },
+  "system operations": {
+    "system operations": {
+      "odp_ids": [
+        "cp-07_odp.01",
+        "cp-08_odp.01"
+      ]
+    }
+  },
+  "time period and transfer rate consistent with the recovery time and recovery point objectives": {
+    "organization-defined time period and transfer rate consistent with the recovery time and recovery point objectives": {
+      "prm_ids": [
+        "cp-9.5_prm_1"
+      ]
+    }
+  },
+  "transfer rate": {
+    "transfer rate": {
+      "odp_ids": [
+        "cp-09.05_odp.02"
+      ]
+    }
+  },
+  "backup information": {
+    "backup information": {
+      "odp_ids": [
+        "cp-09.07_odp",
+        "cp-09.08_odp"
+      ]
+    }
+  },
+  "time period consistent with recovery time and recovery point objectives": {
+    "organization-defined time period consistent with recovery time and recovery point objectives": {
+      "prm_ids": [
+        "cp-10_prm_1"
+      ]
+    }
+  },
+  "restoration time periods": {
+    "restoration time periods": {
+      "odp_ids": [
+        "cp-10.04_odp"
+      ]
+    }
+  },
+  "alternative communications protocols": {
+    "alternative communications protocols": {
+      "odp_ids": [
+        "cp-11_odp"
+      ]
+    }
+  },
+  "security and privacy functions": {
+    "organization-defined security and privacy functions": {
+      "prm_ids": [
+        "si-6_prm_1"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['local', 'network', 'remote']}": {
+    "{\"choice\": [\"local\", \"network\", \"remote\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "ia-02.06_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['privileged accounts', 'non-privileged accounts']}": {
+    "{\"choice\": [\"privileged accounts\", \"non-privileged accounts\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "ia-02.06_odp.02",
+        "ia-02.08_odp"
+      ]
+    }
+  },
+  "strength of mechanism requirements": {
+    "strength of mechanism requirements": {
+      "odp_ids": [
+        "ia-02.06_odp.03"
+      ]
+    }
+  },
+  "system accounts and services": {
+    "system accounts and services": {
+      "odp_ids": [
+        "ia-02.10_odp"
+      ]
+    }
+  },
+  "out-of-band authentication": {
+    "out-of-band authentication": {
+      "odp_ids": [
+        "ia-02.13_odp.01"
+      ]
+    }
+  },
+  "devices and/or types of devices": {
+    "devices and/or types of devices": {
+      "odp_ids": [
+        "ia-03_odp.01",
+        "ia-03.01_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['local', 'remote', 'network']}": {
+    "{\"choice\": [\"local\", \"remote\", \"network\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "ia-03_odp.02",
+        "ia-03.01_odp.02"
+      ]
+    }
+  },
+  "lease information and lease duration": {
+    "organization-defined lease information and lease duration": {
+      "prm_ids": [
+        "ia-3.3_prm_1"
+      ]
+    }
+  },
+  "lease information": {
+    "lease information": {
+      "odp_ids": [
+        "ia-03.03_odp.01"
+      ]
+    }
+  },
+  "lease duration": {
+    "lease duration": {
+      "odp_ids": [
+        "ia-03.03_odp.02"
+      ]
+    }
+  },
+  "configuration management process": {
+    "configuration management process": {
+      "odp_ids": [
+        "ia-03.04_odp"
+      ]
+    }
+  },
+  "characteristics": {
+    "characteristics": {
+      "odp_ids": [
+        "ia-04.04_odp"
+      ]
+    }
+  },
+  "dynamic identifier policy": {
+    "dynamic identifier policy": {
+      "odp_ids": [
+        "ia-04.05_odp"
+      ]
+    }
+  },
+  "external organizations": {
+    "external organizations": {
+      "odp_ids": [
+        "ia-04.06_odp",
+        "ia-05.09_odp",
+        "ir-04.08_odp.01",
+        "si-05_odp.01",
+        "si-05_odp.05"
+      ]
+    }
+  },
+  "protected central storage": {
+    "protected central storage": {
+      "odp_ids": [
+        "ia-04.09_odp"
+      ]
+    }
+  },
+  "time period by authenticator type": {
+    "time period by authenticator type": {
+      "odp_ids": [
+        "ia-05_odp.01"
+      ]
+    }
+  },
+  "composition and complexity rules": {
+    "composition and complexity rules": {
+      "odp_ids": [
+        "ia-05.01_odp.02"
+      ]
+    }
+  },
+  "binding rules": {
+    "binding rules": {
+      "odp_ids": [
+        "ia-05.10_odp"
+      ]
+    }
+  },
+  "biometric quality requirements": {
+    "biometric quality requirements": {
+      "odp_ids": [
+        "ia-05.12_odp"
+      ]
+    }
+  },
+  "types of and/or specific authenticators": {
+    "types of and/or specific authenticators": {
+      "odp_ids": [
+        "ia-05.16_odp.01"
+      ]
+    }
+  },
+  "{'choice': ['in person', 'by a trusted external party']}": {
+    "{\"choice\": [\"in person\", \"by a trusted external party\"]}": {
+      "odp_ids": [
+        "ia-05.16_odp.02"
+      ]
+    }
+  },
+  "registration authority": {
+    "registration authority": {
+      "odp_ids": [
+        "ia-05.16_odp.03"
+      ]
+    }
+  },
+  "password managers": {
+    "password managers": {
+      "odp_ids": [
+        "ia-05.18_odp.01"
+      ]
+    }
+  },
+  "identity management profiles": {
+    "identity management profiles": {
+      "odp_ids": [
+        "ia-08.04_odp"
+      ]
+    }
+  },
+  "system services and applications": {
+    "system services and applications": {
+      "odp_ids": [
+        "ia-09_odp"
+      ]
+    }
+  },
+  "supplemental authentication techniques or mechanisms": {
+    "supplemental authentication techniques or mechanisms": {
+      "odp_ids": [
+        "ia-10_odp.01"
+      ]
+    }
+  },
+  "circumstances or situations": {
+    "circumstances or situations": {
+      "odp_ids": [
+        "ia-10_odp.02",
+        "ia-11_odp"
+      ]
+    }
+  },
+  "methods of validation and verification": {
+    "methods of validation and verification": {
+      "odp_ids": [
+        "ia-12.03_odp"
+      ]
+    }
+  },
+  "{'choice': ['registration code', 'notice of proofing']}": {
+    "{\"choice\": [\"registration code\", \"notice of proofing\"]}": {
+      "odp_ids": [
+        "ia-12.05_odp"
+      ]
+    }
+  },
+  "identity assurance level": {
+    "identity assurance level": {
+      "odp_ids": [
+        "ia-12.06_odp"
+      ]
+    }
+  },
+  "types of dynamic reconfiguration": {
+    "types of dynamic reconfiguration": {
+      "odp_ids": [
+        "ir-04.02_odp.01"
+      ]
+    }
+  },
+  "classes of incidents": {
+    "classes of incidents": {
+      "odp_ids": [
+        "ir-04.03_odp.01"
+      ]
+    }
+  },
+  "entities": {
+    "entities": {
+      "odp_ids": [
+        "ir-04.07_odp"
+      ]
+    }
+  },
+  "incident information": {
+    "incident information": {
+      "odp_ids": [
+        "ir-04.08_odp.02"
+      ]
+    }
+  },
+  "dynamic response capabilities": {
+    "dynamic response capabilities": {
+      "odp_ids": [
+        "ir-04.09_odp"
+      ]
+    }
+  },
+  "environments or resources": {
+    "environments or resources": {
+      "odp_ids": [
+        "ir-04.13_odp"
+      ]
+    }
+  },
+  "authorities": {
+    "authorities": {
+      "odp_ids": [
+        "ir-06_odp.02"
+      ]
+    }
+  },
+  "incident response personnel (identified by name and/or by role) and organizational elements": {
+    "organization-defined incident response personnel (identified by name and/or by role) and organizational elements": {
+      "prm_ids": [
+        "ir-8_prm_5"
+      ]
+    }
+  },
+  "entities, personnel, or roles": {
+    "entities, personnel, or roles": {
+      "odp_ids": [
+        "ir-08_odp.03"
+      ]
+    }
+  },
+  "incident response personnel": {
+    "incident response personnel": {
+      "odp_ids": [
+        "ir-08_odp.04",
+        "ir-08_odp.06",
+        "si-04.07_odp.01"
+      ]
+    }
+  },
+  "procedures": {
+    "procedures": {
+      "odp_ids": [
+        "ir-09.03_odp",
+        "sc-04.02_odp"
+      ]
+    }
+  },
+  "audit events": {
+    "organization-defined audit events": {
+      "prm_ids": [
+        "ma-4.1_prm_1"
+      ]
+    },
+    "audit events": {
+      "odp_ids": [
+        "ma-04.01_odp.01",
+        "ma-04.01_odp.02"
+      ]
+    }
+  },
+  "authenticators that are replay resistant": {
+    "authenticators that are replay resistant": {
+      "odp_ids": [
+        "ma-04.04_odp"
+      ]
+    }
+  },
+  "personnel and roles": {
+    "personnel and roles": {
+      "odp_ids": [
+        "ma-04.05_odp.02"
+      ]
+    }
+  },
+  "cryptographic mechanisms": {
+    "cryptographic mechanisms": {
+      "odp_ids": [
+        "ma-04.06_odp"
+      ]
+    }
+  },
+  "alternate controls": {
+    "alternate controls": {
+      "odp_ids": [
+        "ma-05.01_odp"
+      ]
+    }
+  },
+  "time intervals": {
+    "time intervals": {
+      "odp_ids": [
+        "ma-06.01_odp.02",
+        "ma-06.02_odp.02"
+      ]
+    }
+  },
+  "trusted maintenance facilities": {
+    "trusted maintenance facilities": {
+      "odp_ids": [
+        "ma-07_odp.02"
+      ]
+    }
+  },
+  "types of digital and/or non-digital media": {
+    "organization-defined types of digital and/or non-digital media": {
+      "prm_ids": [
+        "mp-2_prm_1",
+        "mp-4_prm_1"
+      ]
+    }
+  },
+  "types of digital media": {
+    "types of digital media": {
+      "odp_ids": [
+        "mp-02_odp.01",
+        "mp-04_odp.01",
+        "mp-04_odp.03"
+      ]
+    }
+  },
+  "types of non-digital media": {
+    "types of non-digital media": {
+      "odp_ids": [
+        "mp-02_odp.03",
+        "mp-04_odp.02",
+        "mp-04_odp.04"
+      ]
+    }
+  },
+  "types of media exempted from marking": {
+    "types of media exempted from marking": {
+      "odp_ids": [
+        "mp-03_odp.01"
+      ]
+    }
+  },
+  "controlled areas": {
+    "controlled areas": {
+      "odp_ids": [
+        "mp-03_odp.02",
+        "mp-04_odp.05",
+        "mp-04_odp.06",
+        "pe-20_odp.03"
+      ]
+    },
+    "organization-defined controlled areas": {
+      "prm_ids": [
+        "mp-4_prm_2"
+      ]
+    }
+  },
+  "types of system media": {
+    "types of system media": {
+      "odp_ids": [
+        "mp-05_odp.01",
+        "mp-07_odp.01"
+      ]
+    }
+  },
+  "system media": {
+    "organization-defined system media": {
+      "prm_ids": [
+        "mp-6_prm_1"
+      ]
+    },
+    "system media": {
+      "odp_ids": [
+        "mp-06_odp.01",
+        "mp-06_odp.02",
+        "mp-06_odp.03",
+        "mp-06.07_odp"
+      ]
+    }
+  },
+  "sanitization techniques and procedures": {
+    "organization-defined sanitization techniques and procedures": {
+      "prm_ids": [
+        "mp-6_prm_2"
+      ]
+    },
+    "sanitization techniques and procedures": {
+      "odp_ids": [
+        "mp-06_odp.04",
+        "mp-06_odp.05",
+        "mp-06_odp.06"
+      ]
+    }
+  },
+  "{'choice': ['remotely', 'under {{ insert: param, mp-06.08_odp.03 }} ']}": {
+    "{\"choice\": [\"remotely\", \"under {{ insert: param, mp-06.08_odp.03 }} \"]}": {
+      "odp_ids": [
+        "mp-06.08_odp.02"
+      ]
+    }
+  },
+  "{'choice': ['restrict', 'prohibit']}": {
+    "{\"choice\": [\"restrict\", \"prohibit\"]}": {
+      "odp_ids": [
+        "mp-07_odp.02"
+      ]
+    }
+  },
+  "system media downgrading process": {
+    "system media downgrading process": {
+      "odp_ids": [
+        "mp-08_odp.01"
+      ]
+    }
+  },
+  "system media requiring downgrading": {
+    "system media requiring downgrading": {
+      "odp_ids": [
+        "mp-08_odp.02"
+      ]
+    }
+  },
+  "list of acceptable forms of identification": {
+    "list of acceptable forms of identification": {
+      "odp_ids": [
+        "pe-02.02_odp"
+      ]
+    }
+  },
+  "physical access authorizations": {
+    "physical access authorizations": {
+      "odp_ids": [
+        "pe-02.03_odp.02"
+      ]
+    }
+  },
+  "entry and exit points": {
+    "entry and exit points": {
+      "odp_ids": [
+        "pe-03_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['{{ insert: param, pe-03_odp.03 }} ', 'guards']}": {
+    "{\"choice\": [\"{{ insert: param, pe-03_odp.03 }} \", \"guards\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "pe-03_odp.02"
+      ]
+    }
+  },
+  "systems or devices": {
+    "systems or devices": {
+      "odp_ids": [
+        "pe-03_odp.03"
+      ]
+    }
+  },
+  "entry or exit points": {
+    "entry or exit points": {
+      "odp_ids": [
+        "pe-03_odp.04"
+      ]
+    }
+  },
+  "physical access controls": {
+    "physical access controls": {
+      "odp_ids": [
+        "pe-03_odp.05"
+      ]
+    }
+  },
+  "physical access devices": {
+    "physical access devices": {
+      "odp_ids": [
+        "pe-03_odp.07"
+      ]
+    }
+  },
+  "physical spaces": {
+    "physical spaces": {
+      "odp_ids": [
+        "pe-03.01_odp",
+        "pe-06.04_odp"
+      ]
+    }
+  },
+  "physical access points": {
+    "physical access points": {
+      "odp_ids": [
+        "pe-03.03_odp"
+      ]
+    }
+  },
+  "anti-tamper technologies": {
+    "anti-tamper technologies": {
+      "odp_ids": [
+        "pe-03.05_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['detect', 'prevent']}": {
+    "{\"choice\": [\"detect\", \"prevent\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "pe-03.05_odp.02"
+      ]
+    }
+  },
+  "locations": {
+    "locations": {
+      "odp_ids": [
+        "pe-03.08_odp",
+        "ra-06_odp.01",
+        "sa-09.05_odp.02",
+        "sc-48_odp.02",
+        "sc-48.01_odp.02"
+      ]
+    }
+  },
+  "system distribution and transmission lines": {
+    "system distribution and transmission lines": {
+      "odp_ids": [
+        "pe-04_odp.01"
+      ]
+    }
+  },
+  "output devices": {
+    "output devices": {
+      "odp_ids": [
+        "pe-05_odp"
+      ]
+    }
+  },
+  "classes or types of intrusions": {
+    "classes or types of intrusions": {
+      "odp_ids": [
+        "pe-06.02_odp.01"
+      ]
+    }
+  },
+  "response actions": {
+    "response actions": {
+      "odp_ids": [
+        "pe-06.02_odp.02"
+      ]
+    }
+  },
+  "operational areas": {
+    "operational areas": {
+      "odp_ids": [
+        "pe-06.03_odp.01"
+      ]
+    }
+  },
+  "distance": {
+    "distance": {
+      "odp_ids": [
+        "pe-09.01_odp"
+      ]
+    }
+  },
+  "critical system components": {
+    "critical system components": {
+      "odp_ids": [
+        "pe-09.02_odp",
+        "sr-05.01_odp.02"
+      ]
+    }
+  },
+  "system or individual system components": {
+    "system or individual system components": {
+      "odp_ids": [
+        "pe-10_odp.01"
+      ]
+    }
+  },
+  "location": {
+    "location": {
+      "odp_ids": [
+        "pe-10_odp.02"
+      ]
+    }
+  },
+  "{'choice': ['an orderly shutdown of the system', 'transition of the system to long-term alternate power']}": {
+    "{\"choice\": [\"an orderly shutdown of the system\", \"transition of the system to long-term alternate power\"]}": {
+      "odp_ids": [
+        "pe-11_odp"
+      ]
+    }
+  },
+  "{'choice': ['manually', 'automatically']}": {
+    "{\"choice\": [\"manually\", \"automatically\"]}": {
+      "odp_ids": [
+        "pe-11.01_odp",
+        "pe-11.02_odp.01"
+      ]
+    }
+  },
+  "{'choice': ['minimally required operational capability', 'full operational capability']}": {
+    "{\"choice\": [\"minimally required operational capability\", \"full operational capability\"]}": {
+      "odp_ids": [
+        "pe-11.02_odp.02"
+      ]
+    }
+  },
+  "emergency responders": {
+    "emergency responders": {
+      "odp_ids": [
+        "pe-13.01_odp.02",
+        "pe-13.02_odp.02"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['temperature', 'humidity', 'pressure', 'radiation', '{{ insert: param, pe-14_odp.02 }} ']}": {
+    "{\"choice\": [\"temperature\", \"humidity\", \"pressure\", \"radiation\", \"{{ insert: param, pe-14_odp.02 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "pe-14_odp.01"
+      ]
+    }
+  },
+  "environmental control": {
+    "environmental control": {
+      "odp_ids": [
+        "pe-14_odp.02"
+      ]
+    }
+  },
+  "acceptable levels": {
+    "acceptable levels": {
+      "odp_ids": [
+        "pe-14_odp.03"
+      ]
+    }
+  },
+  "automatic environmental controls": {
+    "automatic environmental controls": {
+      "odp_ids": [
+        "pe-14.01_odp"
+      ]
+    }
+  },
+  "types of system components": {
+    "organization-defined types of system components": {
+      "prm_ids": [
+        "pe-16_prm_1"
+      ]
+    },
+    "types of system components": {
+      "odp_ids": [
+        "pe-16_odp.01",
+        "pe-16_odp.02"
+      ]
+    }
+  },
+  "alternate work sites": {
+    "alternate work sites": {
+      "odp_ids": [
+        "pe-17_odp.01"
+      ]
+    }
+  },
+  "physical and environmental hazards": {
+    "physical and environmental hazards": {
+      "odp_ids": [
+        "pe-18_odp"
+      ]
+    }
+  },
+  "asset location technologies": {
+    "asset location technologies": {
+      "odp_ids": [
+        "pe-20_odp.01"
+      ]
+    }
+  },
+  "assets": {
+    "assets": {
+      "odp_ids": [
+        "pe-20_odp.02"
+      ]
+    }
+  },
+  "protective measures": {
+    "protective measures": {
+      "odp_ids": [
+        "pe-21_odp.01"
+      ]
+    }
+  },
+  "system and system components": {
+    "system and system components": {
+      "odp_ids": [
+        "pe-21_odp.02"
+      ]
+    }
+  },
+  "system hardware components": {
+    "system hardware components": {
+      "odp_ids": [
+        "pe-22_odp",
+        "si-03.08_odp.02"
+      ]
+    }
+  },
+  "individuals or groups": {
+    "individuals or groups": {
+      "odp_ids": [
+        "pl-02_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['{{ insert: param, pl-04_odp.03 }} ', 'when the rules are revised or updated']}": {
+    "{\"choice\": [\"{{ insert: param, pl-04_odp.03 }} \", \"when the rules are revised or updated\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "pl-04_odp.02"
+      ]
+    }
+  },
+  "locations and architectural layers": {
+    "locations and architectural layers": {
+      "odp_ids": [
+        "pl-08.01_odp.02",
+        "pl-08.02_odp.02"
+      ]
+    }
+  },
+  "controls and related processes": {
+    "controls and related processes": {
+      "odp_ids": [
+        "pl-09_odp"
+      ]
+    }
+  },
+  "non-essential functions or services": {
+    "non-essential functions or services": {
+      "odp_ids": [
+        "pm-07.01_odp"
+      ]
+    }
+  },
+  "responsibilities": {
+    "responsibilities": {
+      "odp_ids": [
+        "pm-23_odp.02"
+      ]
+    }
+  },
+  "oversight bodies": {
+    "oversight bodies": {
+      "odp_ids": [
+        "pm-27_odp.02"
+      ]
+    }
+  },
+  "officials": {
+    "officials": {
+      "odp_ids": [
+        "pm-27_odp.03"
+      ]
+    }
+  },
+  "metrics": {
+    "metrics": {
+      "odp_ids": [
+        "pm-31_odp.01"
+      ]
+    }
+  },
+  "monitoring frequencies": {
+    "monitoring frequencies": {
+      "odp_ids": [
+        "pm-31_odp.02"
+      ]
+    }
+  },
+  "assessment frequencies": {
+    "assessment frequencies": {
+      "odp_ids": [
+        "pm-31_odp.03"
+      ]
+    }
+  },
+  "conditions requiring rescreening and, where rescreening is so indicated, the frequency of rescreening": {
+    "organization-defined conditions requiring rescreening and, where rescreening is so indicated, the frequency of rescreening": {
+      "prm_ids": [
+        "ps-3_prm_1"
+      ]
+    }
+  },
+  "conditions requiring rescreening": {
+    "conditions requiring rescreening": {
+      "odp_ids": [
+        "ps-03_odp.01"
+      ]
+    }
+  },
+  "additional personnel screening criteria": {
+    "additional personnel screening criteria": {
+      "odp_ids": [
+        "ps-03.03_odp",
+        "sa-21_odp.03"
+      ]
+    }
+  },
+  "citizenship requirements": {
+    "citizenship requirements": {
+      "odp_ids": [
+        "ps-03.04_odp.02"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['notify {{ insert: param, ps-04.02_odp.03 }} of individual termination actions', 'disable access to system resources']}": {
+    "{\"choice\": [\"notify {{ insert: param, ps-04.02_odp.03 }} of individual termination actions\", \"disable access to system resources\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "ps-04.02_odp.02"
+      ]
+    }
+  },
+  "transfer or reassignment actions": {
+    "transfer or reassignment actions": {
+      "odp_ids": [
+        "ps-05_odp.01"
+      ]
+    }
+  },
+  "time period following the formal transfer action": {
+    "time period following the formal transfer action": {
+      "odp_ids": [
+        "ps-05_odp.02"
+      ]
+    }
+  },
+  "authority": {
+    "authority": {
+      "odp_ids": [
+        "pt-02_odp.01"
+      ]
+    }
+  },
+  "processing": {
+    "processing": {
+      "odp_ids": [
+        "pt-02_odp.02",
+        "pt-02_odp.03",
+        "pt-03_odp.02"
+      ]
+    }
+  },
+  "authorized processing": {
+    "authorized processing": {
+      "odp_ids": [
+        "pt-02.01_odp.01"
+      ]
+    }
+  },
+  "elements of personally identifiable information": {
+    "elements of personally identifiable information": {
+      "odp_ids": [
+        "pt-02.01_odp.02",
+        "pt-03.01_odp.02",
+        "si-12.01_odp"
+      ]
+    }
+  },
+  "purpose(s)": {
+    "purpose(s)": {
+      "odp_ids": [
+        "pt-03_odp.01"
+      ]
+    }
+  },
+  "processing purposes": {
+    "processing purposes": {
+      "odp_ids": [
+        "pt-03.01_odp.01"
+      ]
+    }
+  },
+  "tools or mechanisms": {
+    "tools or mechanisms": {
+      "odp_ids": [
+        "pt-04_odp",
+        "pt-04.03_odp"
+      ]
+    }
+  },
+  "consent mechanisms": {
+    "consent mechanisms": {
+      "odp_ids": [
+        "pt-04.02_odp.01"
+      ]
+    }
+  },
+  "personally identifiable information processing": {
+    "personally identifiable information processing": {
+      "odp_ids": [
+        "pt-04.02_odp.03"
+      ]
+    }
+  },
+  "processing conditions": {
+    "processing conditions": {
+      "odp_ids": [
+        "pt-07_odp"
+      ]
+    }
+  },
+  "{'choice': ['security and privacy plans', 'risk assessment report', '{{ insert: param, ra-03_odp.02 }} ']}": {
+    "{\"choice\": [\"security and privacy plans\", \"risk assessment report\", \"{{ insert: param, ra-03_odp.02 }} \"]}": {
+      "odp_ids": [
+        "ra-03_odp.01"
+      ]
+    }
+  },
+  "document": {
+    "document": {
+      "odp_ids": [
+        "ra-03_odp.02",
+        "sr-03_odp.05"
+      ]
+    }
+  },
+  "systems, system components, and system services": {
+    "systems, system components, and system services": {
+      "odp_ids": [
+        "ra-03.01_odp.01"
+      ]
+    }
+  },
+  "means": {
+    "means": {
+      "odp_ids": [
+        "ra-03.03_odp"
+      ]
+    }
+  },
+  "advanced automation and analytics capabilities": {
+    "organization-defined advanced automation and analytics capabilities": {
+      "prm_ids": [
+        "ra-3.4_prm_2"
+      ]
+    }
+  },
+  "advanced automation capabilities": {
+    "advanced automation capabilities": {
+      "odp_ids": [
+        "ra-03.04_odp.01"
+      ]
+    }
+  },
+  "advanced analytics capabilities": {
+    "advanced analytics capabilities": {
+      "odp_ids": [
+        "ra-03.04_odp.03"
+      ]
+    }
+  },
+  "frequency and/or randomly in accordance with organization-defined process": {
+    "organization-defined frequency and/or randomly in accordance with organization-defined process": {
+      "prm_ids": [
+        "ra-5_prm_1"
+      ]
+    },
+    "frequency and/or randomly in accordance with organization-defined process": {
+      "odp_ids": [
+        "ra-05_odp.01",
+        "ra-05_odp.02"
+      ]
+    }
+  },
+  "response times": {
+    "response times": {
+      "odp_ids": [
+        "ra-05_odp.03"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['{{ insert: param, ra-05.02_odp.02 }} ', 'prior to a new scan', 'when new vulnerabilities are identified and reported']}": {
+    "{\"choice\": [\"{{ insert: param, ra-05.02_odp.02 }} \", \"prior to a new scan\", \"when new vulnerabilities are identified and reported\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "ra-05.02_odp.01"
+      ]
+    }
+  },
+  "corrective actions": {
+    "corrective actions": {
+      "odp_ids": [
+        "ra-05.04_odp",
+        "sc-18.01_odp.02"
+      ]
+    }
+  },
+  "vulnerability scanning activities": {
+    "vulnerability scanning activities": {
+      "odp_ids": [
+        "ra-05.05_odp.02"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['{{ insert: param, ra-06_odp.03 }} ', 'when {{ insert: param, ra-06_odp.04 }} ']}": {
+    "{\"choice\": [\"{{ insert: param, ra-06_odp.03 }} \", \"when {{ insert: param, ra-06_odp.04 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "ra-06_odp.02"
+      ]
+    }
+  },
+  "events or indicators": {
+    "events or indicators": {
+      "odp_ids": [
+        "ra-06_odp.04"
+      ]
+    }
+  },
+  "systems, system components, or system services": {
+    "systems, system components, or system services": {
+      "odp_ids": [
+        "ra-09_odp.01",
+        "sr-02_odp.01"
+      ]
+    }
+  },
+  "decision points in the system development life cycle": {
+    "decision points in the system development life cycle": {
+      "odp_ids": [
+        "ra-09_odp.02"
+      ]
+    }
+  },
+  "system-development life cycle": {
+    "system-development life cycle": {
+      "odp_ids": [
+        "sa-03_odp"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['standardized contract language', '{{ insert: param, sa-04_odp.02 }} ']}": {
+    "{\"choice\": [\"standardized contract language\", \"{{ insert: param, sa-04_odp.02 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sa-04_odp.01"
+      ]
+    }
+  },
+  "contract language": {
+    "contract language": {
+      "odp_ids": [
+        "sa-04_odp.02"
+      ]
+    }
+  },
+  "design and implementation information": {
+    "design and implementation information": {
+      "odp_ids": [
+        "sa-04.02_odp.02"
+      ]
+    }
+  },
+  "level of detail": {
+    "level of detail": {
+      "odp_ids": [
+        "sa-04.02_odp.03"
+      ]
+    }
+  },
+  "systems engineering methods": {
+    "systems engineering methods": {
+      "odp_ids": [
+        "sa-04.03_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['{{ insert: param, sa-04.03_odp.03 }} ', '{{ insert: param, sa-04.03_odp.04 }} ']}": {
+    "{\"choice\": [\"{{ insert: param, sa-04.03_odp.03 }} \", \"{{ insert: param, sa-04.03_odp.04 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sa-04.03_odp.02"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['{{ insert: param, sa-04.03_odp.06 }} ', '{{ insert: param, sa-04.03_odp.07 }} ', '{{ insert: param, sa-04.03_odp.08 }} ']}": {
+    "{\"choice\": [\"{{ insert: param, sa-04.03_odp.06 }} \", \"{{ insert: param, sa-04.03_odp.07 }} \", \"{{ insert: param, sa-04.03_odp.08 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sa-04.03_odp.05"
+      ]
+    }
+  },
+  "software development methods": {
+    "software development methods": {
+      "odp_ids": [
+        "sa-04.03_odp.06"
+      ]
+    }
+  },
+  "testing, evaluation, assessment, verification, and validation methods": {
+    "testing, evaluation, assessment, verification, and validation methods": {
+      "odp_ids": [
+        "sa-04.03_odp.07"
+      ]
+    }
+  },
+  "quality control processes": {
+    "quality control processes": {
+      "odp_ids": [
+        "sa-04.03_odp.08"
+      ]
+    }
+  },
+  "time frame": {
+    "time frame": {
+      "odp_ids": [
+        "sa-04.12_odp"
+      ]
+    }
+  },
+  "systems security and privacy engineering principles": {
+    "organization-defined systems security and privacy engineering principles": {
+      "prm_ids": [
+        "sa-8_prm_1"
+      ]
+    }
+  },
+  "processes": {
+    "processes": {
+      "odp_ids": [
+        "sa-08.33_odp"
+      ]
+    }
+  },
+  "processes, methods, and techniques": {
+    "processes, methods, and techniques": {
+      "odp_ids": [
+        "sa-09_odp.02"
+      ]
+    }
+  },
+  "external system services": {
+    "external system services": {
+      "odp_ids": [
+        "sa-09.02_odp"
+      ]
+    }
+  },
+  "security and privacy requirements, properties, factors, or conditions defining acceptable trust relationships": {
+    "organization-defined security and privacy requirements, properties, factors, or conditions defining acceptable trust relationships": {
+      "prm_ids": [
+        "sa-9.3_prm_1"
+      ]
+    }
+  },
+  "security and privacy requirements, properties, factors, or conditions": {
+    "security requirements, properties, factors, or conditions": {
+      "odp_ids": [
+        "sa-09.03_odp.01"
+      ]
+    },
+    "privacy requirements, properties, factors, or conditions": {
+      "odp_ids": [
+        "sa-09.03_odp.02"
+      ]
+    }
+  },
+  "external service providers": {
+    "external service providers": {
+      "odp_ids": [
+        "sa-09.04_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['information processing', 'information or data', 'system services']}": {
+    "{\"choice\": [\"information processing\", \"information or data\", \"system services\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sa-09.05_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['design', 'development', 'implementation', 'operation', 'disposal']}": {
+    "{\"choice\": [\"design\", \"development\", \"implementation\", \"operation\", \"disposal\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sa-10_odp.01"
+      ]
+    }
+  },
+  "configuration items": {
+    "configuration items": {
+      "odp_ids": [
+        "sa-10_odp.02"
+      ]
+    }
+  },
+  "configuration change management and control process": {
+    "organization-defined configuration change management and control process": {
+      "prm_ids": [
+        "sa-10.7_prm_2"
+      ]
+    }
+  },
+  "configuration change management and control processes": {
+    "configuration change management and control processes": {
+      "odp_ids": [
+        "sa-10.07_odp.03",
+        "sa-10.07_odp.04"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['unit', 'integration', 'system', 'regression']}": {
+    "{\"choice\": [\"unit\", \"integration\", \"system\", \"regression\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sa-11_odp.01"
+      ]
+    }
+  },
+  "frequency to conduct": {
+    "frequency to conduct": {
+      "odp_ids": [
+        "sa-11_odp.02"
+      ]
+    }
+  },
+  "depth and coverage": {
+    "depth and coverage": {
+      "odp_ids": [
+        "sa-11_odp.03"
+      ]
+    }
+  },
+  "breadth and depth of modeling and analyses": {
+    "organization-defined breadth and depth of modeling and analyses": {
+      "prm_ids": [
+        "sa-11.2_prm_3"
+      ]
+    }
+  },
+  "acceptance criteria": {
+    "organization-defined acceptance criteria": {
+      "prm_ids": [
+        "sa-11.2_prm_4"
+      ]
+    },
+    "acceptance criteria": {
+      "odp_ids": [
+        "sa-11.02_odp.05",
+        "sa-11.02_odp.06"
+      ]
+    }
+  },
+  "tools and methods": {
+    "tools and methods": {
+      "odp_ids": [
+        "sa-11.02_odp.02"
+      ]
+    }
+  },
+  "breadth and depth": {
+    "breadth and depth": {
+      "odp_ids": [
+        "sa-11.02_odp.03",
+        "sa-11.02_odp.04"
+      ]
+    }
+  },
+  "independence criteria": {
+    "independence criteria": {
+      "odp_ids": [
+        "sa-11.03_odp"
+      ]
+    }
+  },
+  "specific code": {
+    "specific code": {
+      "odp_ids": [
+        "sa-11.04_odp.01"
+      ]
+    }
+  },
+  "processes, procedures, and/or techniques": {
+    "processes, procedures, and/or techniques": {
+      "odp_ids": [
+        "sa-11.04_odp.02"
+      ]
+    }
+  },
+  "breadth and depth of testing": {
+    "organization-defined breadth and depth of testing": {
+      "prm_ids": [
+        "sa-11.5_prm_1"
+      ]
+    }
+  },
+  "breadth": {
+    "breadth": {
+      "odp_ids": [
+        "sa-11.05_odp.01",
+        "sa-11.07_odp.01",
+        "sa-15.03_odp.02"
+      ]
+    }
+  },
+  "depth": {
+    "depth": {
+      "odp_ids": [
+        "sa-11.05_odp.02",
+        "sa-11.07_odp.02",
+        "sa-15.03_odp.03"
+      ]
+    }
+  },
+  "constraints": {
+    "constraints": {
+      "odp_ids": [
+        "sa-11.05_odp.03"
+      ]
+    }
+  },
+  "breadth and depth of testing and evaluation": {
+    "organization-defined breadth and depth of testing and evaluation": {
+      "prm_ids": [
+        "sa-11.7_prm_1"
+      ]
+    }
+  },
+  "security and privacy requirements": {
+    "security requirements": {
+      "odp_ids": [
+        "sa-15_odp.02"
+      ]
+    },
+    "privacy requirements": {
+      "odp_ids": [
+        "sa-15_odp.03"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['{{ insert: param, sa-15.01_odp.02 }} ', '{{ insert: param, sa-15.01_odp.03 }} ', 'upon delivery']}": {
+    "{\"choice\": [\"{{ insert: param, sa-15.01_odp.02 }} \", \"{{ insert: param, sa-15.01_odp.03 }} \", \"upon delivery\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sa-15.01_odp.01"
+      ]
+    }
+  },
+  "program review": {
+    "program review": {
+      "odp_ids": [
+        "sa-15.01_odp.03"
+      ]
+    }
+  },
+  "breadth and depth of criticality analysis": {
+    "organization-defined breadth and depth of criticality analysis": {
+      "prm_ids": [
+        "sa-15.3_prm_2"
+      ]
+    }
+  },
+  "decision points": {
+    "decision points": {
+      "odp_ids": [
+        "sa-15.03_odp.01"
+      ]
+    }
+  },
+  "thresholds": {
+    "thresholds": {
+      "odp_ids": [
+        "sa-15.05_odp"
+      ]
+    }
+  },
+  "tools": {
+    "tools": {
+      "odp_ids": [
+        "sa-15.07_odp.02"
+      ]
+    }
+  },
+  "training": {
+    "training": {
+      "odp_ids": [
+        "sa-16_odp"
+      ]
+    }
+  },
+  "elements of organizational security and privacy policy": {
+    "organization-defined elements of organizational security and privacy policy": {
+      "prm_ids": [
+        "sa-17.1_prm_1"
+      ]
+    }
+  },
+  "organizational security and privacy policy": {
+    "organizational security policy": {
+      "odp_ids": [
+        "sa-17.01_odp.01"
+      ]
+    },
+    "organizational privacy policy": {
+      "odp_ids": [
+        "sa-17.01_odp.02"
+      ]
+    }
+  },
+  "{'choice': ['informal demonstration, convincing argument with formal methods as feasible']}": {
+    "{\"choice\": [\"informal demonstration, convincing argument with formal methods as feasible\"]}": {
+      "odp_ids": [
+        "sa-17.04_odp"
+      ]
+    }
+  },
+  "critical systems": {
+    "critical systems": {
+      "odp_ids": [
+        "sa-17.08_odp.01",
+        "sa-17.09_odp"
+      ]
+    }
+  },
+  "capabilities": {
+    "capabilities": {
+      "odp_ids": [
+        "sa-17.08_odp.02"
+      ]
+    }
+  },
+  "critical system": {
+    "critical system": {
+      "odp_ids": [
+        "sa-20_odp"
+      ]
+    }
+  },
+  "system, systems component, or system service": {
+    "system, systems component, or system service": {
+      "odp_ids": [
+        "sa-21_odp.01"
+      ]
+    }
+  },
+  "official government duties": {
+    "official government duties": {
+      "odp_ids": [
+        "sa-21_odp.02"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['in-house support', '{{ insert: param, sa-22_odp.02 }} ']}": {
+    "{\"choice\": [\"in-house support\", \"{{ insert: param, sa-22_odp.02 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sa-22_odp.01"
+      ]
+    }
+  },
+  "support from external providers": {
+    "support from external providers": {
+      "odp_ids": [
+        "sa-22_odp.02"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['design modification', 'augmentation', 'reconfiguration']}": {
+    "{\"choice\": [\"design modification\", \"augmentation\", \"reconfiguration\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sa-23_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['organization-level', 'mission/business-process-level', 'system-level']}": {
+    "{\"choice\": [\"organization-level\", \"mission/business-process-level\", \"system-level\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sc-01_odp.03"
+      ]
+    }
+  },
+  "types of denial-of-service events": {
+    "types of denial-of-service events": {
+      "odp_ids": [
+        "sc-05_odp.01"
+      ]
+    }
+  },
+  "{'choice': ['protect against', 'limit']}": {
+    "{\"choice\": [\"protect against\", \"limit\"]}": {
+      "odp_ids": [
+        "sc-05_odp.02"
+      ]
+    }
+  },
+  "controls by type of denial-of-service event": {
+    "controls by type of denial-of-service event": {
+      "odp_ids": [
+        "sc-05_odp.03"
+      ]
+    }
+  },
+  "denial-of-service attacks": {
+    "denial-of-service attacks": {
+      "odp_ids": [
+        "sc-05.01_odp"
+      ]
+    }
+  },
+  "monitoring tools": {
+    "monitoring tools": {
+      "odp_ids": [
+        "sc-05.03_odp.01"
+      ]
+    }
+  },
+  "system resources": {
+    "system resources": {
+      "odp_ids": [
+        "sc-05.03_odp.02"
+      ]
+    }
+  },
+  "resources": {
+    "resources": {
+      "odp_ids": [
+        "sc-06_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['priority', 'quota', '{{ insert: param, sc-06_odp.03 }} ']}": {
+    "{\"choice\": [\"priority\", \"quota\", \"{{ insert: param, sc-06_odp.03 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sc-06_odp.02"
+      ]
+    }
+  },
+  "{'choice': ['physically', 'logically']}": {
+    "{\"choice\": [\"physically\", \"logically\"]}": {
+      "odp_ids": [
+        "sc-07_odp",
+        "sc-07.29_odp.01",
+        "sc-11_odp.01",
+        "sc-41_odp.02",
+        "sc-46_odp"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['at managed interfaces', 'for {{ insert: param, sc-07.05_odp.02 }} ']}": {
+    "{\"choice\": [\"at managed interfaces\", \"for {{ insert: param, sc-07.05_odp.02 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sc-07.05_odp.01"
+      ]
+    }
+  },
+  "safeguards": {
+    "safeguards": {
+      "odp_ids": [
+        "sc-07.07_odp",
+        "sc-28.03_odp.02"
+      ]
+    }
+  },
+  "internal communications traffic": {
+    "internal communications traffic": {
+      "odp_ids": [
+        "sc-07.08_odp.01"
+      ]
+    }
+  },
+  "external networks": {
+    "external networks": {
+      "odp_ids": [
+        "sc-07.08_odp.02"
+      ]
+    }
+  },
+  "authorized sources": {
+    "authorized sources": {
+      "odp_ids": [
+        "sc-07.11_odp.01"
+      ]
+    }
+  },
+  "authorized destinations": {
+    "authorized destinations": {
+      "odp_ids": [
+        "sc-07.11_odp.02"
+      ]
+    }
+  },
+  "host-based boundary protection mechanisms": {
+    "host-based boundary protection mechanisms": {
+      "odp_ids": [
+        "sc-07.12_odp.01"
+      ]
+    }
+  },
+  "managed interfaces": {
+    "managed interfaces": {
+      "odp_ids": [
+        "sc-07.14_odp"
+      ]
+    }
+  },
+  "communication clients": {
+    "communication clients": {
+      "odp_ids": [
+        "sc-07.19_odp"
+      ]
+    }
+  },
+  "missions and/or business functions": {
+    "missions and/or business functions": {
+      "odp_ids": [
+        "sc-07.21_odp.02"
+      ]
+    }
+  },
+  "processing rules": {
+    "processing rules": {
+      "odp_ids": [
+        "sc-07.24_odp"
+      ]
+    }
+  },
+  "boundary protection device": {
+    "boundary protection device": {
+      "odp_ids": [
+        "sc-07.25_odp.02",
+        "sc-07.26_odp",
+        "sc-07.27_odp.02"
+      ]
+    }
+  },
+  "critical system components and functions": {
+    "critical system components and functions": {
+      "odp_ids": [
+        "sc-07.29_odp.02"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['confidentiality', 'integrity']}": {
+    "{\"choice\": [\"confidentiality\", \"integrity\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sc-08_odp",
+        "sc-08.02_odp",
+        "sc-28_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['prevent unauthorized disclosure of information', 'detect changes to information']}": {
+    "{\"choice\": [\"prevent unauthorized disclosure of information\", \"detect changes to information\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sc-08.01_odp",
+        "sc-08.05_odp.02"
+      ]
+    }
+  },
+  "alternative physical controls": {
+    "alternative physical controls": {
+      "odp_ids": [
+        "sc-08.03_odp",
+        "sc-08.04_odp"
+      ]
+    }
+  },
+  "protected distribution system": {
+    "protected distribution system": {
+      "odp_ids": [
+        "sc-08.05_odp.01"
+      ]
+    }
+  },
+  "{'choice': ['nist fips-validated', 'nsa-approved']}": {
+    "{\"choice\": [\"NIST FIPS-validated\", \"NSA-approved\"]}": {
+      "odp_ids": [
+        "sc-12.02_odp"
+      ]
+    }
+  },
+  "cryptographic uses": {
+    "cryptographic uses": {
+      "odp_ids": [
+        "sc-13_odp.01"
+      ]
+    }
+  },
+  "types of cryptography": {
+    "types of cryptography": {
+      "odp_ids": [
+        "sc-13_odp.02"
+      ]
+    }
+  },
+  "exceptions where remote activation is to be allowed": {
+    "exceptions where remote activation is to be allowed": {
+      "odp_ids": [
+        "sc-15_odp"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['physical', 'logical']}": {
+    "{\"choice\": [\"physical\", \"logical\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sc-15.01_odp"
+      ]
+    }
+  },
+  "secure work areas": {
+    "secure work areas": {
+      "odp_ids": [
+        "sc-15.03_odp.02"
+      ]
+    }
+  },
+  "online meetings and teleconferences": {
+    "online meetings and teleconferences": {
+      "odp_ids": [
+        "sc-15.04_odp"
+      ]
+    }
+  },
+  "mechanisms or techniques": {
+    "mechanisms or techniques": {
+      "odp_ids": [
+        "sc-16.03_odp"
+      ]
+    }
+  },
+  "certificate policy": {
+    "certificate policy": {
+      "odp_ids": [
+        "sc-17_odp"
+      ]
+    }
+  },
+  "unacceptable mobile code": {
+    "unacceptable mobile code": {
+      "odp_ids": [
+        "sc-18.01_odp.01",
+        "sc-18.03_odp"
+      ]
+    }
+  },
+  "mobile code requirements": {
+    "mobile code requirements": {
+      "odp_ids": [
+        "sc-18.02_odp"
+      ]
+    }
+  },
+  "software applications": {
+    "software applications": {
+      "odp_ids": [
+        "sc-18.04_odp.01"
+      ]
+    }
+  },
+  "randomness requirements": {
+    "randomness requirements": {
+      "odp_ids": [
+        "sc-23.03_odp"
+      ]
+    }
+  },
+  "certificated authorities": {
+    "certificated authorities": {
+      "odp_ids": [
+        "sc-23.05_odp"
+      ]
+    }
+  },
+  "types of system failures on system components": {
+    "types of system failures on system components": {
+      "odp_ids": [
+        "sc-24_odp.01"
+      ]
+    }
+  },
+  "known system state": {
+    "known system state": {
+      "odp_ids": [
+        "sc-24_odp.02"
+      ]
+    }
+  },
+  "system state information": {
+    "system state information": {
+      "odp_ids": [
+        "sc-24_odp.03"
+      ]
+    }
+  },
+  "platform-independent applications": {
+    "platform-independent applications": {
+      "odp_ids": [
+        "sc-27_odp"
+      ]
+    }
+  },
+  "information at rest": {
+    "information at rest": {
+      "odp_ids": [
+        "sc-28_odp.02"
+      ]
+    }
+  },
+  "system components or media": {
+    "system components or media": {
+      "odp_ids": [
+        "sc-28.01_odp.02"
+      ]
+    }
+  },
+  "{'choice': ['{{ insert: param, sc-28.03_odp.02 }} ', 'hardware-protected key store']}": {
+    "{\"choice\": [\"{{ insert: param, sc-28.03_odp.02 }} \", \"hardware-protected key store\"]}": {
+      "odp_ids": [
+        "sc-28.03_odp.01"
+      ]
+    }
+  },
+  "concealment and misdirection techniques": {
+    "concealment and misdirection techniques": {
+      "odp_ids": [
+        "sc-30_odp.01"
+      ]
+    }
+  },
+  "time periods": {
+    "time periods": {
+      "odp_ids": [
+        "sc-30_odp.03"
+      ]
+    }
+  },
+  "processing and/or storage": {
+    "processing and/or storage": {
+      "odp_ids": [
+        "sc-30.03_odp.01"
+      ]
+    }
+  },
+  "{'choice': ['{{ insert: param, sc-30.03_odp.03 }} ', 'random time intervals']}": {
+    "{\"choice\": [\"{{ insert: param, sc-30.03_odp.03 }} \", \"random time intervals\"]}": {
+      "odp_ids": [
+        "sc-30.03_odp.02"
+      ]
+    }
+  },
+  "time frequency": {
+    "time frequency": {
+      "odp_ids": [
+        "sc-30.03_odp.03"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['storage', 'timing']}": {
+    "{\"choice\": [\"storage\", \"timing\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sc-31_odp",
+        "sc-31.02_odp.01"
+      ]
+    }
+  },
+  "values": {
+    "values": {
+      "odp_ids": [
+        "sc-31.02_odp.02"
+      ]
+    }
+  },
+  "subset of identified covert channels": {
+    "subset of identified covert channels": {
+      "odp_ids": [
+        "sc-31.03_odp"
+      ]
+    }
+  },
+  "{'choice': ['physical', 'logical']}": {
+    "{\"choice\": [\"physical\", \"logical\"]}": {
+      "odp_ids": [
+        "sc-32_odp.02"
+      ]
+    }
+  },
+  "circumstances for the physical or logical separation of components": {
+    "circumstances for the physical or logical separation of components": {
+      "odp_ids": [
+        "sc-32_odp.03"
+      ]
+    }
+  },
+  "applications": {
+    "applications": {
+      "odp_ids": [
+        "sc-34_odp.02"
+      ]
+    }
+  },
+  "{'choice': ['physical locations', 'logical domains']}": {
+    "{\"choice\": [\"physical locations\", \"logical domains\"]}": {
+      "prm_ids": [
+        "sc-36_prm_1"
+      ],
+      "odp_ids": [
+        "sc-36_odp.02",
+        "sc-36_odp.04"
+      ]
+    }
+  },
+  "processing and storage components": {
+    "organization-defined processing and storage components": {
+      "prm_ids": [
+        "sc-36_prm_2"
+      ]
+    }
+  },
+  "processing components": {
+    "processing components": {
+      "odp_ids": [
+        "sc-36_odp.01"
+      ]
+    }
+  },
+  "storage components": {
+    "storage components": {
+      "odp_ids": [
+        "sc-36_odp.03"
+      ]
+    }
+  },
+  "distributed processing and storage components": {
+    "distributed processing and storage components": {
+      "odp_ids": [
+        "sc-36.01_odp.01"
+      ]
+    }
+  },
+  "duplicate systems or system components": {
+    "duplicate systems or system components": {
+      "odp_ids": [
+        "sc-36.02_odp"
+      ]
+    }
+  },
+  "out-of-band channels": {
+    "out-of-band channels": {
+      "odp_ids": [
+        "sc-37_odp.01"
+      ]
+    }
+  },
+  "information, system components, or devices": {
+    "information, system components, or devices": {
+      "odp_ids": [
+        "sc-37_odp.02",
+        "sc-37.01_odp.03"
+      ]
+    }
+  },
+  "individuals or systems": {
+    "individuals or systems": {
+      "odp_ids": [
+        "sc-37_odp.03",
+        "sc-37.01_odp.02"
+      ]
+    }
+  },
+  "multi-threaded processing": {
+    "multi-threaded processing": {
+      "odp_ids": [
+        "sc-39.02_odp"
+      ]
+    }
+  },
+  "wireless links": {
+    "organization-defined wireless links": {
+      "prm_ids": [
+        "sc-40_prm_1"
+      ]
+    },
+    "wireless links": {
+      "odp_ids": [
+        "sc-40_odp.01",
+        "sc-40_odp.03"
+      ]
+    }
+  },
+  "types of signal parameter attacks or references to sources for such attacks": {
+    "organization-defined types of signal parameter attacks or references to sources for such attacks": {
+      "prm_ids": [
+        "sc-40_prm_2"
+      ]
+    },
+    "types of signal parameter attacks or references to sources for such attacks": {
+      "odp_ids": [
+        "sc-40_odp.02",
+        "sc-40_odp.04"
+      ]
+    }
+  },
+  "level of protection": {
+    "level of protection": {
+      "odp_ids": [
+        "sc-40.01_odp"
+      ]
+    }
+  },
+  "level of reduction": {
+    "level of reduction": {
+      "odp_ids": [
+        "sc-40.02_odp"
+      ]
+    }
+  },
+  "wireless transmitters": {
+    "wireless transmitters": {
+      "odp_ids": [
+        "sc-40.04_odp"
+      ]
+    }
+  },
+  "connection ports or input/output devices": {
+    "connection ports or input/output devices": {
+      "odp_ids": [
+        "sc-41_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['the use of devices possessing {{ insert: param, sc-42_odp.02 }} in {{ insert: param, sc-42_odp.03 }} ', 'the remote activation of environmental sensing capabilities on organizational systems or system components with the following exceptions: {{ insert: param, sc-42_odp.04 }} ']}": {
+    "{\"choice\": [\"the use of devices possessing {{ insert: param, sc-42_odp.02 }} in {{ insert: param, sc-42_odp.03 }} \", \"the remote activation of environmental sensing capabilities on organizational systems or system components with the following exceptions: {{ insert: param, sc-42_odp.04 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sc-42_odp.01"
+      ]
+    }
+  },
+  "environmental sensing capabilities": {
+    "environmental sensing capabilities": {
+      "odp_ids": [
+        "sc-42_odp.02"
+      ]
+    }
+  },
+  "facilities, areas, or systems": {
+    "facilities, areas, or systems": {
+      "odp_ids": [
+        "sc-42_odp.03"
+      ]
+    }
+  },
+  "exceptions where remote activation of sensors is allowed": {
+    "exceptions where remote activation of sensors is allowed": {
+      "odp_ids": [
+        "sc-42_odp.04"
+      ]
+    }
+  },
+  "group of users": {
+    "group of users": {
+      "odp_ids": [
+        "sc-42_odp.05"
+      ]
+    }
+  },
+  "sensors": {
+    "sensors": {
+      "odp_ids": [
+        "sc-42.01_odp",
+        "sc-42.04_odp.02",
+        "sc-42.05_odp"
+      ]
+    }
+  },
+  "components": {
+    "components": {
+      "odp_ids": [
+        "sc-43_odp",
+        "si-02.04_odp"
+      ]
+    }
+  },
+  "system, system component, or location": {
+    "system, system component, or location": {
+      "odp_ids": [
+        "sc-44_odp"
+      ]
+    }
+  },
+  "authoritative time source": {
+    "authoritative time source": {
+      "odp_ids": [
+        "sc-45.01_odp.02"
+      ]
+    }
+  },
+  "alternate communication paths": {
+    "alternate communication paths": {
+      "odp_ids": [
+        "sc-47_odp"
+      ]
+    }
+  },
+  "sensors and monitoring capabilities": {
+    "sensors and monitoring capabilities": {
+      "odp_ids": [
+        "sc-48_odp.01",
+        "sc-48.01_odp.01"
+      ]
+    }
+  },
+  "conditions or circumstances": {
+    "conditions or circumstances": {
+      "odp_ids": [
+        "sc-48_odp.03",
+        "sc-48.01_odp.03"
+      ]
+    }
+  },
+  "system firmware components": {
+    "system firmware components": {
+      "odp_ids": [
+        "sc-51_odp.01"
+      ]
+    }
+  },
+  "authorized individuals": {
+    "authorized individuals": {
+      "odp_ids": [
+        "sc-51_odp.02",
+        "si-10.01_odp"
+      ]
+    }
+  },
+  "benchmarks": {
+    "benchmarks": {
+      "odp_ids": [
+        "si-02.03_odp"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['signature-based', 'non-signature-based']}": {
+    "{\"choice\": [\"signature-based\", \"non-signature-based\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "si-03_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['endpoint', 'network entry and exit points']}": {
+    "{\"choice\": [\"endpoint\", \"network entry and exit points\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "si-03_odp.03"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['block malicious code', 'quarantine malicious code', 'take {{ insert: param, si-03_odp.05 }} ']}": {
+    "{\"choice\": [\"block malicious code\", \"quarantine malicious code\", \"take {{ insert: param, si-03_odp.05 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "si-03_odp.04"
+      ]
+    }
+  },
+  "unauthorized operating system commands": {
+    "unauthorized operating system commands": {
+      "odp_ids": [
+        "si-03.08_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['issue a warning', 'audit the command execution', 'prevent the execution of the command']}": {
+    "{\"choice\": [\"issue a warning\", \"audit the command execution\", \"prevent the execution of the command\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "si-03.08_odp.03"
+      ]
+    }
+  },
+  "tools and techniques": {
+    "tools and techniques": {
+      "odp_ids": [
+        "si-03.10_odp"
+      ]
+    }
+  },
+  "monitoring objectives": {
+    "monitoring objectives": {
+      "odp_ids": [
+        "si-04_odp.01"
+      ]
+    }
+  },
+  "techniques and methods": {
+    "techniques and methods": {
+      "odp_ids": [
+        "si-04_odp.02",
+        "sr-12_odp.02"
+      ]
+    }
+  },
+  "system monitoring information": {
+    "system monitoring information": {
+      "odp_ids": [
+        "si-04_odp.03"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['as needed', '{{ insert: param, si-04_odp.06 }} ']}": {
+    "{\"choice\": [\"as needed\", \"{{ insert: param, si-04_odp.06 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "si-04_odp.05"
+      ]
+    }
+  },
+  "unusual or unauthorized activities or conditions": {
+    "organization-defined unusual or unauthorized activities or conditions": {
+      "prm_ids": [
+        "si-4.4_prm_2"
+      ]
+    },
+    "unusual or unauthorized activities or conditions": {
+      "odp_ids": [
+        "si-04.04_odp.02",
+        "si-04.04_odp.04"
+      ]
+    }
+  },
+  "compromise indicators": {
+    "compromise indicators": {
+      "odp_ids": [
+        "si-04.05_odp.02"
+      ]
+    }
+  },
+  "least-disruptive actions": {
+    "least-disruptive actions": {
+      "odp_ids": [
+        "si-04.07_odp.02"
+      ]
+    }
+  },
+  "encrypted communications traffic": {
+    "encrypted communications traffic": {
+      "odp_ids": [
+        "si-04.10_odp.01"
+      ]
+    }
+  },
+  "system monitoring tools and mechanisms": {
+    "system monitoring tools and mechanisms": {
+      "odp_ids": [
+        "si-04.10_odp.02"
+      ]
+    }
+  },
+  "interior points": {
+    "interior points": {
+      "odp_ids": [
+        "si-04.11_odp",
+        "si-04.18_odp"
+      ]
+    }
+  },
+  "activities that trigger alerts": {
+    "activities that trigger alerts": {
+      "odp_ids": [
+        "si-04.12_odp.03"
+      ]
+    }
+  },
+  "additional monitoring": {
+    "additional monitoring": {
+      "odp_ids": [
+        "si-04.19_odp.01",
+        "si-04.20_odp",
+        "si-04.21_odp.01"
+      ]
+    }
+  },
+  "sources": {
+    "sources": {
+      "odp_ids": [
+        "si-04.19_odp.02",
+        "si-04.24_odp.01"
+      ]
+    }
+  },
+  "probationary period": {
+    "probationary period": {
+      "odp_ids": [
+        "si-04.21_odp.02"
+      ]
+    }
+  },
+  "authorization or approval processes": {
+    "authorization or approval processes": {
+      "odp_ids": [
+        "si-04.22_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['audit', 'alert {{ insert: param, si-04.22_odp.03 }} ']}": {
+    "{\"choice\": [\"audit\", \"alert {{ insert: param, si-04.22_odp.03 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "si-04.22_odp.02"
+      ]
+    }
+  },
+  "host-based monitoring mechanisms": {
+    "host-based monitoring mechanisms": {
+      "odp_ids": [
+        "si-04.23_odp.01"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['{{ insert: param, si-05_odp.03 }} ', '{{ insert: param, si-05_odp.04 }} ', '{{ insert: param, si-05_odp.05 }} ']}": {
+    "{\"choice\": [\"{{ insert: param, si-05_odp.03 }} \", \"{{ insert: param, si-05_odp.04 }} \", \"{{ insert: param, si-05_odp.05 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "si-05_odp.02"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['{{ insert: param, si-06_odp.04 }} ', 'upon command by user with appropriate privilege', '{{ insert: param, si-06_odp.05 }} ']}": {
+    "{\"choice\": [\"{{ insert: param, si-06_odp.04 }} \", \"upon command by user with appropriate privilege\", \"{{ insert: param, si-06_odp.05 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "si-06_odp.03"
+      ]
+    }
+  },
+  "system transitional states": {
+    "system transitional states": {
+      "odp_ids": [
+        "si-06_odp.04"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['shut the system down', 'restart the system', '{{ insert: param, si-06_odp.08 }} ']}": {
+    "{\"choice\": [\"shut the system down\", \"restart the system\", \"{{ insert: param, si-06_odp.08 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "si-06_odp.07"
+      ]
+    }
+  },
+  "alternative action(s)": {
+    "alternative action(s)": {
+      "odp_ids": [
+        "si-06_odp.08"
+      ]
+    }
+  },
+  "software, firmware, and information": {
+    "organization-defined software, firmware, and information": {
+      "prm_ids": [
+        "si-7_prm_1",
+        "si-7.1_prm_1"
+      ]
+    }
+  },
+  "firmware": {
+    "firmware": {
+      "odp_ids": [
+        "si-07_odp.02",
+        "si-07.01_odp.05"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['at startup', 'at {{ insert: param, si-7.1_prm_3 }} ', '{{ insert: param, si-7.1_prm_4 }} ']}": {
+    "{\"choice\": [\"at startup\", \"at {{ insert: param, si-7.1_prm_3 }} \", \"{{ insert: param, si-7.1_prm_4 }} \"], \"how-many\": \"one-or-more\"}": {
+      "prm_ids": [
+        "si-7.1_prm_2"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['at startup', 'at {{ insert: param, si-07.01_odp.03 }} ', '{{ insert: param, si-07.01_odp.04 }} ']}": {
+    "{\"choice\": [\"at startup\", \"at {{ insert: param, si-07.01_odp.03 }} \", \"{{ insert: param, si-07.01_odp.04 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "si-07.01_odp.02"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['at startup', 'at {{ insert: param, si-07.01_odp.07 }} ', '{{ insert: param, si-07.01_odp.08 }} ']}": {
+    "{\"choice\": [\"at startup\", \"at {{ insert: param, si-07.01_odp.07 }} \", \"{{ insert: param, si-07.01_odp.08 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "si-07.01_odp.06"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['at startup', 'at {{ insert: param, si-07.01_odp.11 }} ', '{{ insert: param, si-07.01_odp.12 }} ']}": {
+    "{\"choice\": [\"at startup\", \"at {{ insert: param, si-07.01_odp.11 }} \", \"{{ insert: param, si-07.01_odp.12 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "si-07.01_odp.10"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['shut down the system', 'restart the system', 'implement {{ insert: param, si-07.05_odp.02 }} ']}": {
+    "{\"choice\": [\"shut down the system\", \"restart the system\", \"implement {{ insert: param, si-07.05_odp.02 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "si-07.05_odp.01"
+      ]
+    }
+  },
+  "changes": {
+    "changes": {
+      "odp_ids": [
+        "si-07.07_odp"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['generate an audit record', 'alert current user', 'alert {{ insert: param, si-07.08_odp.02 }} ', '{{ insert: param, si-07.08_odp.03 }} ']}": {
+    "{\"choice\": [\"generate an audit record\", \"alert current user\", \"alert {{ insert: param, si-07.08_odp.02 }} \", \"{{ insert: param, si-07.08_odp.03 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "si-07.08_odp.01"
+      ]
+    }
+  },
+  "other actions": {
+    "other actions": {
+      "odp_ids": [
+        "si-07.08_odp.03"
+      ]
+    }
+  },
+  "software or firmware components": {
+    "software or firmware components": {
+      "odp_ids": [
+        "si-07.15_odp"
+      ]
+    }
+  },
+  "information inputs": {
+    "information inputs": {
+      "odp_ids": [
+        "si-10_odp"
+      ]
+    }
+  },
+  "trusted sources": {
+    "trusted sources": {
+      "odp_ids": [
+        "si-10.05_odp.01",
+        "si-14.01_odp"
+      ]
+    }
+  },
+  "formats": {
+    "formats": {
+      "odp_ids": [
+        "si-10.05_odp.02"
+      ]
+    }
+  },
+  "mean time to failure (mttf) substitution criteria": {
+    "mean time to failure (MTTF) substitution criteria": {
+      "odp_ids": [
+        "si-13_odp.02"
+      ]
+    }
+  },
+  "fraction or percentage": {
+    "fraction or percentage": {
+      "odp_ids": [
+        "si-13.01_odp"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['activate {{ insert: param, si-13.04_odp.03 }} ', 'automatically shut down the system', '{{ insert: param, si-13.04_odp.04 }} ']}": {
+    "{\"choice\": [\"activate {{ insert: param, si-13.04_odp.03 }} \", \"automatically shut down the system\", \"{{ insert: param, si-13.04_odp.04 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "si-13.04_odp.02"
+      ]
+    }
+  },
+  "alarm": {
+    "alarm": {
+      "odp_ids": [
+        "si-13.04_odp.03"
+      ]
+    }
+  },
+  "{'choice': ['real-time', 'near real-time']}": {
+    "{\"choice\": [\"real-time\", \"near real-time\"]}": {
+      "odp_ids": [
+        "si-13.05_odp.01"
+      ]
+    }
+  },
+  "failover capability": {
+    "failover capability": {
+      "odp_ids": [
+        "si-13.05_odp.02"
+      ]
+    }
+  },
+  "system components and services": {
+    "system components and services": {
+      "odp_ids": [
+        "si-14_odp.01"
+      ]
+    },
+    "organization-defined system components and services": {
+      "prm_ids": [
+        "sr-3.1_prm_1"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['upon end of session of use', '{{ insert: param, si-14_odp.03 }} ']}": {
+    "{\"choice\": [\"upon end of session of use\", \"{{ insert: param, si-14_odp.03 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "si-14_odp.02"
+      ]
+    }
+  },
+  "{'choice': ['refresh {{ insert: param, si-14.02_odp.02 }} {{ insert: param, si-14.02_odp.03 }} ', 'generate {{ insert: param, si-14.02_odp.04 }} on demand']}": {
+    "{\"choice\": [\"refresh {{ insert: param, si-14.02_odp.02 }} {{ insert: param, si-14.02_odp.03 }} \", \"generate {{ insert: param, si-14.02_odp.04 }} on demand\"]}": {
+      "odp_ids": [
+        "si-14.02_odp.01"
+      ]
+    }
+  },
+  "{'choice': ['completion of a request', 'a period of non-use']}": {
+    "{\"choice\": [\"completion of a request\", \"a period of non-use\"]}": {
+      "odp_ids": [
+        "si-14.03_odp"
+      ]
+    }
+  },
+  "software programs and/or applications": {
+    "software programs and/or applications": {
+      "odp_ids": [
+        "si-15_odp"
+      ]
+    }
+  },
+  "list of failure conditions and associated fail-safe procedures": {
+    "organization-defined list of failure conditions and associated fail-safe procedures": {
+      "prm_ids": [
+        "si-17_prm_1"
+      ]
+    }
+  },
+  "fail-safe procedures": {
+    "fail-safe procedures": {
+      "odp_ids": [
+        "si-17_odp.01"
+      ]
+    }
+  },
+  "list of failure conditions": {
+    "list of failure conditions": {
+      "odp_ids": [
+        "si-17_odp.02"
+      ]
+    }
+  },
+  "recipients": {
+    "recipients": {
+      "odp_ids": [
+        "si-18.05_odp"
+      ]
+    }
+  },
+  "alternative information sources": {
+    "alternative information sources": {
+      "odp_ids": [
+        "si-22_odp.01"
+      ]
+    }
+  },
+  "essential functions and services": {
+    "essential functions and services": {
+      "odp_ids": [
+        "si-22_odp.02"
+      ]
+    }
+  },
+  "personnel, roles and responsibilities": {
+    "personnel, roles and responsibilities": {
+      "odp_ids": [
+        "sr-02.01_odp.01"
+      ]
+    }
+  },
+  "supply chain risk management activities": {
+    "supply chain risk management activities": {
+      "odp_ids": [
+        "sr-02.01_odp.02"
+      ]
+    }
+  },
+  "supply chain personnel": {
+    "supply chain personnel": {
+      "odp_ids": [
+        "sr-03_odp.02"
+      ]
+    }
+  },
+  "supply chain controls": {
+    "supply chain controls": {
+      "odp_ids": [
+        "sr-03_odp.03"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['security and privacy plans', 'supply chain risk management plan', '{{ insert: param, sr-03_odp.05 }} ']}": {
+    "{\"choice\": [\"security and privacy plans\", \"supply chain risk management plan\", \"{{ insert: param, sr-03_odp.05 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sr-03_odp.04"
+      ]
+    }
+  },
+  "systems, system components, and associated data": {
+    "systems, system components, and associated data": {
+      "odp_ids": [
+        "sr-04_odp"
+      ]
+    }
+  },
+  "supply chain elements, processes, and personnel": {
+    "supply chain elements, processes, and personnel": {
+      "odp_ids": [
+        "sr-04.01_odp"
+      ]
+    }
+  },
+  "systems and critical system components": {
+    "systems and critical system components": {
+      "odp_ids": [
+        "sr-04.02_odp"
+      ]
+    }
+  },
+  "analysis method": {
+    "analysis method": {
+      "odp_ids": [
+        "sr-04.04_odp.02"
+      ]
+    }
+  },
+  "strategies, tools, and methods": {
+    "strategies, tools, and methods": {
+      "odp_ids": [
+        "sr-05_odp"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['organizational analysis', 'independent third-party analysis', 'organizational testing', 'independent third-party testing']}": {
+    "{\"choice\": [\"organizational analysis\", \"independent third-party analysis\", \"organizational testing\", \"independent third-party testing\"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sr-06.01_odp.01"
+      ]
+    }
+  },
+  "supply chain elements, processes, and actors": {
+    "supply chain elements, processes, and actors": {
+      "odp_ids": [
+        "sr-06.01_odp.02"
+      ]
+    }
+  },
+  "opsec controls": {
+    "OPSEC controls": {
+      "odp_ids": [
+        "sr-07_odp"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['notification of supply chain compromises', '{{ insert: param, sr-08_odp.02 }} ']}": {
+    "{\"choice\": [\"notification of supply chain compromises\", \"{{ insert: param, sr-08_odp.02 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sr-08_odp.01"
+      ]
+    }
+  },
+  "results of assessments or audits": {
+    "results of assessments or audits": {
+      "odp_ids": [
+        "sr-08_odp.02"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['at random', 'at {{ insert: param, sr-10_odp.03 }} ', 'upon {{ insert: param, sr-10_odp.04 }} ']}": {
+    "{\"choice\": [\"at random\", \"at {{ insert: param, sr-10_odp.03 }} \", \"upon {{ insert: param, sr-10_odp.04 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sr-10_odp.02"
+      ]
+    }
+  },
+  "indications of need for inspection": {
+    "indications of need for inspection": {
+      "odp_ids": [
+        "sr-10_odp.04"
+      ]
+    }
+  },
+  "{'how-many': 'one-or-more', 'choice': ['source of counterfeit component', '{{ insert: param, sr-11_odp.02 }} ', '{{ insert: param, sr-11_odp.03 }} ']}": {
+    "{\"choice\": [\"source of counterfeit component\", \"{{ insert: param, sr-11_odp.02 }} \", \"{{ insert: param, sr-11_odp.03 }} \"], \"how-many\": \"one-or-more\"}": {
+      "odp_ids": [
+        "sr-11_odp.01"
+      ]
+    }
+  },
+  "external reporting organizations": {
+    "external reporting organizations": {
+      "odp_ids": [
+        "sr-11_odp.02"
+      ]
+    }
+  },
+  "data, documentation, tools, or system components": {
+    "data, documentation, tools, or system components": {
+      "odp_ids": [
+        "sr-12_odp.01"
+      ]
+    }
+  }
+}

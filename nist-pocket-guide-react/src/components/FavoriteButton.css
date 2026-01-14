@@ -1,0 +1,33 @@
+/* src/components/FavoriteButton.css */
+
+.favorite-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: var(--text-secondary);
+}
+
+.favorite-button:hover:not(.disabled) {
+  background-color: rgba(255, 193, 7, 0.1);
+  color: #FFC107;
+}
+
+.favorite-button.active {
+  color: #FFC107;
+}
+
+.favorite-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.favorite-button .material-icons {
+  font-size: 24px;
+}

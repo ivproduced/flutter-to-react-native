@@ -1,0 +1,237 @@
+/* src/screens/ControlFamiliesScreen.css */
+
+.control-families {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--background-color);
+}
+
+.families-content {
+  flex: 1;
+  padding: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background-color: var(--card-background);
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.search-bar.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.search-icon {
+  color: var(--text-secondary);
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  color: var(--text-primary);
+  outline: none;
+}
+
+.search-bar input::placeholder {
+  color: var(--text-secondary);
+}
+
+.search-bar input:disabled {
+  cursor: not-allowed;
+}
+
+.pro-badge {
+  padding: 4px 8px;
+  background-color: #667eea;
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Header */
+.families-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.view-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 12px;
+  background-color: var(--card-background);
+  border: 1px solid var(--divider-color);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.view-toggle:hover:not(.disabled) {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.view-toggle.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.view-toggle .material-icons {
+  font-size: 20px;
+}
+
+.pro-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #667eea;
+}
+
+/* List View */
+.families-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.family-list-card {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  background-color: var(--card-background);
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.family-list-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.family-list-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  margin-right: 16px;
+}
+
+.family-prefix {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.family-list-content {
+  flex: 1;
+}
+
+.family-list-title {
+  margin: 0 0 4px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.family-list-count {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+/* Grid View */
+.families-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+}
+
+.family-grid-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--card-background);
+  border-radius: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.family-grid-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+}
+
+.family-grid-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 16px;
+  margin-bottom: 12px;
+}
+
+.family-grid-badge .family-prefix {
+  font-size: 20px;
+}
+
+.family-grid-title {
+  margin: 0 0 8px 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+.family-grid-count {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .families-content {
+    padding: 12px;
+  }
+
+  .families-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .family-grid-card {
+    padding: 16px;
+  }
+}

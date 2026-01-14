@@ -1,0 +1,138 @@
+/* src/screens/HomePage.css */
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--background-color);
+}
+
+.app-bar {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 16px 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-bar h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.content-container {
+  flex: 1;
+  padding: 12px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section-header {
+  margin: 24px 0 12px 0;
+  padding: 0 8px;
+}
+
+.section-header h2 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.module-card {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  margin: 8px 0;
+  background-color: var(--card-background);
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.module-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.module-card-leading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 26px;
+  margin-right: 16px;
+}
+
+.module-card-leading .material-icons {
+  font-size: 28px;
+}
+
+.module-card-content {
+  flex: 1;
+}
+
+.module-card-title {
+  margin: 0 0 4px 0;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.module-card-subtitle {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.module-card-trailing {
+  color: var(--text-secondary);
+  font-size: 24px;
+}
+
+.loading-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--background-color);
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid var(--primary-color-light);
+  border-top-color: var(--primary-color);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .content-container {
+    padding: 8px;
+  }
+  
+  .module-card {
+    padding: 12px;
+  }
+  
+  .module-card-leading {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+  }
+  
+  .module-card-leading .material-icons {
+    font-size: 24px;
+  }
+}

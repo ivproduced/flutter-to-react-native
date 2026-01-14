@@ -1,0 +1,146 @@
+/* src/components/ControlTile.css */
+
+.control-tile {
+  background-color: var(--card-background);
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin: 8px 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.control-tile:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.control-tile.withdrawn {
+  opacity: 0.6;
+}
+
+.control-tile-header {
+  display: flex;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
+}
+
+.control-id-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+  padding: 12px 18px;
+  background-color: rgba(33, 150, 243, 0.15);
+  border-radius: 32px;
+}
+
+.control-id {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2196F3;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.control-tile-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.control-title {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.withdrawn-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  background-color: #f44336;
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.control-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.baseline-badges {
+  display: flex;
+  gap: 4px;
+}
+
+.baseline-badge {
+  padding: 3px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 4px;
+  color: white;
+}
+
+.baseline-badge.baseline-l {
+  background-color: #4CAF50;
+}
+
+.baseline-badge.baseline-m {
+  background-color: #FF9800;
+}
+
+.baseline-badge.baseline-h {
+  background-color: #F44336;
+}
+
+.baseline-badge.baseline-p {
+  background-color: #9C27B0;
+}
+
+.enhancement-badge {
+  padding: 3px 8px;
+  background-color: rgba(102, 126, 234, 0.2);
+  color: #667eea;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.control-arrow {
+  color: var(--text-secondary);
+  font-size: 20px;
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .control-tile {
+    margin: 6px 12px;
+  }
+
+  .control-tile-header {
+    padding: 12px;
+  }
+
+  .control-id-badge {
+    min-width: 64px;
+    padding: 8px 12px;
+  }
+
+  .control-id {
+    font-size: 14px;
+  }
+
+  .control-title {
+    font-size: 15px;
+  }
+}
